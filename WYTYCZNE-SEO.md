@@ -20,7 +20,7 @@
 - [ ] Title **≤ 60 znaków**.
 - [ ] Rok w tytule przy treściach zakupowych/kosztorysach („Ranking… 2026", „Cennik 2026").
 - [ ] Slug krótki, z frazą, bez stop-słów.
-- [ ] `description` **150–160 znaków**, fraza + korzyść, unikalna.
+- [ ] `description` **90–160 znaków**, fraza na początku + korzyść, unikalna.
 
 ## 2. Struktura nagłówków
 

@@ -31,6 +31,7 @@ webpage/
 ├── package.json              # ⚠️ zawiera "allowScripts": {"esbuild": true} — NIE usuwać!
 ├── .env.example              # ⭐ wzór zmiennych afiliacyjnych (Awin / Ceneo / domeny)
 ├── WYTYCZNE-SEO.md           # ⭐⭐⭐ ŚWIĘTOŚĆ — wytyczne + szablon artykułu (obowiązkowe przy każdej treści)
+├── scripts/audit-seo.ps1     # ⭐ audyt SEO — sprawdza artykuły vs WYTYCZNE-SEO.md (exit 0/1, do git hook/CI)
 ├── tsconfig.json
 ├── run-dev.bat               # skrót do `npm.cmd run dev`
 ├── public/robots.txt         # z wpisem Sitemap + Disallow /api/
@@ -115,4 +116,5 @@ npm.cmd install          # tylko przy pierwszym razie / po czyszczeniu
 npm.cmd run dev          # http://localhost:4321
 npm.cmd run build        # produkcyjny -> dist/
 npm.cmd run preview      # podgląd builda
+powershell -ExecutionPolicy Bypass -File scripts/audit-seo.ps1   # audyt SEO (świętość) — 0 błędów = OK
 ```
