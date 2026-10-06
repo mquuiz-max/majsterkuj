@@ -56,6 +56,10 @@ Wiertarko-wkrętarka wierci i wkręca (ma uchwyt na wiertła), a wkrętarka tylk
 ### Czy wkrętarka udarowa wkręci wkręt w beton?
 Nie — do betonu potrzebne są kołki i wiertarka udarowa. Wkrętarka wkręca w drewno, płyty i metal.
 
+## Zobacz też
+
+Konkretnie 18V? Zobacz: [ranking wkrętarek akumulatorowych 18V](/poradniki/ranking-wkretarek-akumulatorowych-18v/).
+
 ## Podsumowanie
 
 Do domu wystarczy wkrętarka o momencie **ok. 150–200 Nm** z dobrego systemu akumulatorowego. Makita DTD152 to świetny wybór na start.

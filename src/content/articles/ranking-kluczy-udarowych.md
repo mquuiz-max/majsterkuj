@@ -56,6 +56,10 @@ Klucz udarowy ma większy moment i napęd na nasadki (do śrub/nakrętek), a wkr
 ### Czy klucz udarowy odkręci zapieczone śruby?
 Tak, udar obrotowy radzi sobie z zapieczonymi i zardzewiałymi śrubami, które ciężko ruszyć ręcznie.
 
+## Zobacz też
+
+Szukasz w budżecie? Zobacz: [ranking kluczy udarowych do 500 zł](/poradniki/ranking-kluczy-udarowych-do-500-zl/).
+
 ## Podsumowanie
 
 Do kół samochodowych i domowego warsztatu wystarczy **klucz udarowy 250–400 Nm z napędem 1/2"**. Makita DTW285 to lekki, wygodny wybór.

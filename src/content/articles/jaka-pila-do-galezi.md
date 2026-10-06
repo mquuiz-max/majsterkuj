@@ -55,6 +55,10 @@ Do ogrodu i okazjonalnej pracy wystarczy **akumulatorowa** — cicha, lekka i be
 ### Jaka długość prowadnicy do gałęzi?
 Wystarczy **20–30 cm**. Dłuższe prowadnice są do ścinania grubych drzew.
 
+## Zobacz też
+
+Ciąć wysoko bez drabiny? Zobacz: [jaka piła do gałęzi na wysięgniku](/poradniki/jaka-pila-do-galezi-na-wysiegniku/).
+
 ## Podsumowanie
 
 Do przycinania gałęzi w ogrodzie wybierz **lekką pilarkę akumulatorową z prowadnicą 25–30 cm**. Makita DUC254 to dobry, uniwersalny wybór.

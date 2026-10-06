@@ -48,6 +48,10 @@ Kup ok. **22 m²** (zapas 10% na docinki). Panele sprzedawane są zwykle w paczk
 ### Czy pod panele trzeba dawać podkład?
 Tak, podkład jest konieczny — wygłusza, chroni przed wilgocią i maskuje drobne nierówności.
 
+## Zobacz też
+
+Chcesz efektowny wzór? Zobacz: [jak położyć panele w jodełkę](/poradniki/jak-polozyc-panele-w-jodelke/).
+
 ## Podsumowanie
 
 Klucz do równo ułożonych paneli to **suche, równe podłoże, podkład i zachowanie dylatacji**. Z piłą ukośnicą i odrobiną wprawy cały pokój położysz w weekend.

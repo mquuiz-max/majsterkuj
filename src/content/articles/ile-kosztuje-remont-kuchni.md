@@ -49,6 +49,10 @@ Meble na wymiar to zwykle **od 10 000 do 30 000 zł** i więcej, w zależności 
 ### Czy remont kuchni da się zrobić samemu?
 Malowanie, montaż czy część prac wykończeniowych — tak. Hydraulikę i elektrykę lepiej powierzyć fachowcom.
 
+## Zobacz też
+
+Planujesz prace pod zabudowę? Zobacz: [ile kosztuje remont kuchni bez mebli](/poradniki/ile-kosztuje-remont-kuchni-bez-mebli/).
+
 ## Podsumowanie
 
 Remont kuchni w standardzie „standardowy" to orientacyjnie **ok. 1700 zł/m²**. Dokładny koszt najłatwiej policzyć w kalkulatorze — wystarczy metraż i zakres prac.

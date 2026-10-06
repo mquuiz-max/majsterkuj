@@ -45,6 +45,10 @@ Samopoziomująca jest droższa, ale daje idealnie równą powierzchnię i schnie
 ### Ile schnie wylewka?
 Wylewka cementowa schnie ok. **1 tydzień na każdy centymetr grubości**. Przed ułożeniem podłogi musi być całkowicie sucha.
 
+## Zobacz też
+
+Szukasz konkretnego typu? Zobacz: [ile kosztuje wylewka samopoziomująca](/poradniki/ile-kosztuje-wylewka-samopoziomujaca/).
+
 ## Podsumowanie
 
 Wylewka to koszt **ok. 40–90 zł/m²** z materiałem i robocizną. Wylewka samopoziomująca to wygoda, ale wyższa cena.

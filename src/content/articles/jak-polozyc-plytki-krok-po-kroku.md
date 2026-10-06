@@ -48,6 +48,10 @@ Można, ale tylko jeśli stare trzymają się mocno i podłoże jest równe. Bez
 ### Jaka paca zębata?
 Do płytek ściennych 6–8 mm, do podłogowych i większych formatów 10–12 mm.
 
+## Zobacz też
+
+Chcesz uniknąć kucia? Zobacz: [jak położyć płytki na płytki](/poradniki/jak-polozyc-plytki-na-plytki/).
+
 ## Podsumowanie
 
 Klucz do równej glazury to **wypoziomowane podłoże, krzyżyki dystansowe i dokładne docinanie**. To praca wymagająca cierpliwości, ale efekt jest wart wysiłku.

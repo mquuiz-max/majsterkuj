@@ -44,6 +44,10 @@ Do mebli drewnianych sprawdzą się **farby kredowe, akrylowe lub olejne**. Farb
 ### Czy trzeba szlifować przed malowaniem?
 Tak, szlifowanie usuwa starą powłokę i poprawia przyczepność nowej farby. Bez tego farba może się łuszczyć.
 
+## Zobacz też
+
+Odświeżasz kuchnię? Zobacz: [jak odnowić meble kuchenne](/poradniki/jak-odnowic-meble-kuchenne/).
+
 ## Podsumowanie
 
 Renowacja mebli to **szlifowanie → naprawa → malowanie**. Z szlifierką mimośrodową i odrobiną cierpliwości tchniesz w stare meble drugie życie.

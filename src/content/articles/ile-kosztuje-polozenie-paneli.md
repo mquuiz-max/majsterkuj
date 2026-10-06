@@ -44,6 +44,10 @@ Najszybciej oszacujesz go w naszym [kalkulatorze kosztów remontu](/). Wybierz p
 ### Czy da się położyć panele samemu?
 Tak, to jedna z łatwiejszych prac. Zaoszczędzisz koszt robocizny (30–50 zł/m²).
 
+## Zobacz też
+
+Rozważasz winyl? Zobacz: [ile kosztuje położenie paneli winylowych](/poradniki/ile-kosztuje-polozenie-paneli-winylowych/).
+
 ## Podsumowanie
 
 Położenie paneli to koszt **ok. 80–160 zł/m²** z materiałem. Robiąc to samodzielnie, płacisz tylko za materiały — ok. 40–130 zł/m².

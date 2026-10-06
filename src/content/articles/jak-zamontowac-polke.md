@@ -48,6 +48,10 @@ Do płyt gipsowo-kartonowych używaj **kołków motylkowych** lub specjalnych ko
 ### Jak powiesić ciężką półkę?
 Do ciężkich półek użyj **grubszych kołków (8–10 mm)** i mocniejszych wkrętów, a najlepiej zamocuj do ściany nośnej.
 
+## Zobacz też
+
+Masz ścianę z karton-gipsu? Zobacz: [jak zamontować półkę do karton-gipsu](/poradniki/jak-zamontowac-polke-do-karton-gipsu/).
+
 ## Podsumowanie
 
 Klucz do solidnie zamontowanej półki to **dobór kołków do rodzaju ściany i proste wywiercenie otworów**. Z poziomicą i odpowiednim wiertłem zrobisz to w kilka minut.

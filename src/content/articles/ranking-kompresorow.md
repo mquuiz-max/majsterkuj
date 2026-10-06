@@ -56,6 +56,10 @@ Do gwoździarki (zszywacza pneumatycznego) wystarczy kompresor **24 l / ok. 8 ba
 ### Czy kompresor nadaje się do malowania?
 Tak, ale do malowania natryskowego potrzebujesz wydajnego modelu (od ok. **250 l/min**) i pistoletu lakierniczego.
 
+## Zobacz też
+
+Nie chcesz oleju w pompie? Zobacz: [ranking kompresorów bezolejowych](/poradniki/ranking-kompresorow-bezolejowych/).
+
 ## Podsumowanie
 
 Do domu i warsztatu wybierz **bezolejowy kompresor 24–50 l**. Stanley 24 l to dobry, uniwersalny wybór na start.

@@ -56,6 +56,10 @@ Wiertarka udarowa (SDS-Plus) wystarczy do wiercenia otworów. Młotowiertarka (S
 ### Czy młotowiertarką wierci się otwory?
 Tak, ale głównie duże otwory (powyżej ok. 20 mm) w twardym betonie. Do zwykłych otworów wygodniejsza jest wiertarka udarowa.
 
+## Zobacz też
+
+Potrzebujesz ciężkiego sprzętu? Zobacz: [ranking młotowiertarek SDS-Max](/poradniki/ranking-mlotowiertarek-sds-max/).
+
 ## Podsumowanie
 
 Do rozbiórki i skuwania wybierz **młotowiertarkę SDS-Max od ok. 8 J**. Bosch GBH 5-40 D to uniwersalny wybór do domu i remontu.

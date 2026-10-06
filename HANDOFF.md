@@ -40,9 +40,9 @@ webpage/
 │   ├── styles/global.css     # Tailwind + style .article-body (proza)
 │   ├── layouts/Layout.astro  # <head> meta+SEO+JSON-LD+google-site-verification, nav, footer, <Analytics/>
 │   ├── content.config.ts     # kolekcja "articles" (glob loader + schema z)
-│   ├── content/articles/     # ⭐ 40 artykułów SEO (.md) — rankingi/kosztorysy/DIY
+│   ├── content/articles/     # ⭐ 72 artykuły SEO (.md) — rankingi/kosztorysy/DIY + satelity
 │   ├── data/renovation.ts    # ⭐ pomieszczenia + prace(works) + narzędzia + standardy (stawki!)
-│   ├── data/seo-keywords.ts  # 10 fraz SEO z researchu (startowy research)
+│   ├── data/seo-keywords.ts  # 42 frazy SEO z researchu (startowy + long-tail + satelity)
 │   ├── data/covers.ts        # ⭐ emoji + zdjęcia okładek per artykuł (coverEmoji / articleImage)
 │   ├── data/categories.ts    # ⭐ 4 kategorie + mapowanie artykuł->kategoria (categoryFor)
 │   ├── lib/affiliate/        # ⭐ config.ts + links.ts (deep-link Awin, cloak) + awin.ts + ceneo.ts
@@ -59,8 +59,8 @@ webpage/
 ```
 
 ## 5. Co jest zbudowane i DZIAŁA
-1. **Kalkulator kosztów remontu** — pomieszczenie + metraż + standard + checkboxy zakresu prac → przedział kosztów (robocizna/materiały) + lista narzędzi (linki to placeholdery `#`).
-2. **40 artykułów SEO** (content collection): rankingi narzędzi, kosztorysy remontów, poradniki DIY „jak zrobić", poradniki zakupowe.
+1. **Kalkulator kosztów remontu** — pomieszczenie (11 typów: łazienka, kuchnia, salon, sypialnia, przedpokój, garaż, poddasze, piwnica, balkon/taras, pralnia, garderoba) + metraż + standard + checkboxy zakresu prac → przedział kosztów (robocizna/materiały) + lista narzędzi (linki to placeholdery `#`).
+2. **72 artykuły SEO** (content collection): rankingi narzędzi, kosztorysy remontów, poradniki DIY „jak zrobić", poradniki zakupowe + satelity długiego ogona.
 3. **4 kategorie** + strony `/kategorie/[slug]` + filtry na liście poradników.
 4. **SEO techniczne**: canonical, og:*/twitter, sitemap, robots.txt, JSON-LD (WebSite, Organization, BlogPosting, BreadcrumbList, FAQPage per artykuł, HowTo per DIY).
 5. **Linkowanie wewnętrzne**: sekcja „Powiązane artykuły" + CTA do kalkulatora (dobierane auto wg tagów).
@@ -99,8 +99,8 @@ webpage/
 
 ## 9. Sugerowane dalsze kroki (do wykonania przez agenta)
 1. Potwierdzić stan gita (`git status`) i czy commity wypchnięte.
-2. Rozbudowa kalkulatora: więcej pomieszczeń / prac (struktura `works` już jest).
-3. Więcej treści: kolejne frazy (wylewka, gładź, piła do gałęzi, uszczelnianie, odgrzybianie — wzór już jest); kategorie produktów; „historia cen".
+2. ✅ Rozbudowa kalkulatora — dodano 5 pomieszczeń (poddasze, piwnica, balkon/taras, pralnia, garderoba; łącznie 11). Dalej opcjonalnie: więcej prac/standardów, wariant „całe mieszkanie” (suma pomieszczeń).
+3. ✅ Zasada treści = **niszowe (long-tail) zapytania, o które ludzie naprawdę pytają** — weryfikacja przez Google Autocomplete (`suggestqueries.google.com/complete/search`). Model: **filar (szeroki) + satelity (wąskie, linkowane sekcją „Zobacz też")**. Łącznie: 12 nowych filarów + 20 satelitów (8 do nowych + 12 do istniejących artykułów). Dalej: skalować tę zasadę, kategorie produktów, „historia cen" (Ceneo API).
 4. ✅ Integracja afiliacji (szkielet) — pozostało: podpiąć klucze + prawdziwe linki (zweryfikować endpoint Ceneo wg oficjalnej dokumentacji).
 5. ✅ SEO (canonical, og:image, schema Article/FAQPage/HowTo/BreadcrumbList, linkowanie wewnętrzne, kategorie, robots.txt, E-E-A-T). Ewentualnie dalej: og:image jako PNG, Core Web Vitals, schema Product w rankingach (po podpięciu prawdziwych cen).
 6. Opcjonalnie: domena własna `majsterkuj.pl` podpięta do Vercel.
