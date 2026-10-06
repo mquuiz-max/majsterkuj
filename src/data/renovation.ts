@@ -14,6 +14,14 @@ export interface Tool {
   affiliateUrl: string;
 }
 
+export interface WorkItem {
+  id: string;
+  label: string;
+  /** Udział tej pracy w całkowitym koszcie pomieszczenia (0–1). */
+  share: number;
+  toolIds: string[];
+}
+
 export interface Room {
   id: RoomId;
   name: string;
@@ -22,8 +30,7 @@ export interface Room {
   baseCostPerM2: number;
   /** Udział robocizny w koszcie całkowitym (0–1). */
   laborShare: number;
-  scope: string[];
-  toolIds: string[];
+  works: WorkItem[];
 }
 
 export interface Standard {
@@ -79,8 +86,14 @@ export const rooms: Room[] = [
     emoji: '🛁',
     baseCostPerM2: 2800,
     laborShare: 0.5,
-    scope: ['Demontaż starej armatury', 'Hydraulika i kanalizacja', 'Elektryka', 'Glazura i terakota', 'Armatura i sanitariaty', 'Malowanie sufitu'],
-    toolIds: ['wiertarko-wkretarka', 'wiertarka-udarowa', 'mieszadlo', 'paca-kielnia', 'przecinarka-glazury', 'poziomica-laserowa'],
+    works: [
+      { id: 'demontaz', label: 'Demontaż starej armatury', share: 0.08, toolIds: ['wiertarko-wkretarka', 'osprzet-wiertla'] },
+      { id: 'hydraulika', label: 'Hydraulika i kanalizacja', share: 0.22, toolIds: ['wiertarka-udarowa', 'wiertarko-wkretarka'] },
+      { id: 'elektryka', label: 'Elektryka', share: 0.1, toolIds: ['wiertarko-wkretarka', 'osprzet-wiertla'] },
+      { id: 'glazura', label: 'Glazura i terakota', share: 0.3, toolIds: ['mieszadlo', 'paca-kielnia', 'przecinarka-glazury', 'poziomica-laserowa'] },
+      { id: 'armatura', label: 'Armatura i sanitariaty', share: 0.25, toolIds: ['wiertarko-wkretarka'] },
+      { id: 'malowanie', label: 'Malowanie sufitu', share: 0.05, toolIds: ['walek-pedzel', 'drabina'] },
+    ],
   },
   {
     id: 'kuchnia',
@@ -88,8 +101,13 @@ export const rooms: Room[] = [
     emoji: '🍳',
     baseCostPerM2: 1700,
     laborShare: 0.5,
-    scope: ['Elektryka i hydraulika', 'Glazura (pas między szafkami)', 'Podłoga', 'Malowanie', 'Montaż (bez mebli na wymiar)'],
-    toolIds: ['wiertarko-wkretarka', 'wiertarka-udarowa', 'poziomica-laserowa', 'pila-ukosnica', 'oscylacyjna'],
+    works: [
+      { id: 'instalacje', label: 'Elektryka i hydraulika', share: 0.25, toolIds: ['wiertarko-wkretarka', 'wiertarka-udarowa'] },
+      { id: 'glazura', label: 'Glazura (pas między szafkami)', share: 0.15, toolIds: ['mieszadlo', 'paca-kielnia', 'poziomica-laserowa'] },
+      { id: 'podloga', label: 'Podłoga', share: 0.2, toolIds: ['pila-ukosnica', 'poziomica-laserowa'] },
+      { id: 'malowanie', label: 'Malowanie', share: 0.15, toolIds: ['walek-pedzel', 'drabina'] },
+      { id: 'montaz', label: 'Montaż (bez mebli na wymiar)', share: 0.25, toolIds: ['wiertarko-wkretarka', 'oscylacyjna'] },
+    ],
   },
   {
     id: 'salon',
@@ -97,8 +115,12 @@ export const rooms: Room[] = [
     emoji: '🛋️',
     baseCostPerM2: 1000,
     laborShare: 0.55,
-    scope: ['Malowanie ścian i sufitu', 'Podłoga (panele / parkiet)', 'Gładzie', 'Listwy przypodłogowe'],
-    toolIds: ['szlifierka-katowa', 'walek-pedzel', 'wiertarko-wkretarka', 'pila-tarczowa', 'poziomica-laserowa'],
+    works: [
+      { id: 'malowanie', label: 'Malowanie ścian i sufitu', share: 0.35, toolIds: ['walek-pedzel', 'drabina'] },
+      { id: 'podloga', label: 'Podłoga (panele / parkiet)', share: 0.35, toolIds: ['pila-tarczowa', 'poziomica-laserowa'] },
+      { id: 'gladzie', label: 'Gładzie', share: 0.2, toolIds: ['szlifierka-katowa'] },
+      { id: 'listwy', label: 'Listwy przypodłogowe', share: 0.1, toolIds: ['pila-ukosnica', 'wiertarko-wkretarka'] },
+    ],
   },
   {
     id: 'sypialnia',
@@ -106,8 +128,12 @@ export const rooms: Room[] = [
     emoji: '🛏️',
     baseCostPerM2: 850,
     laborShare: 0.55,
-    scope: ['Malowanie', 'Podłoga', 'Gładzie', 'Listwy'],
-    toolIds: ['walek-pedzel', 'szlifierka-katowa', 'wiertarko-wkretarka', 'pila-tarczowa'],
+    works: [
+      { id: 'malowanie', label: 'Malowanie', share: 0.4, toolIds: ['walek-pedzel', 'drabina'] },
+      { id: 'podloga', label: 'Podłoga', share: 0.35, toolIds: ['pila-tarczowa', 'poziomica-laserowa'] },
+      { id: 'gladzie', label: 'Gładzie', share: 0.15, toolIds: ['szlifierka-katowa'] },
+      { id: 'listwy', label: 'Listwy', share: 0.1, toolIds: ['pila-ukosnica', 'wiertarko-wkretarka'] },
+    ],
   },
   {
     id: 'przedpokoj',
@@ -115,8 +141,12 @@ export const rooms: Room[] = [
     emoji: '🚪',
     baseCostPerM2: 1100,
     laborShare: 0.5,
-    scope: ['Malowanie', 'Podłoga (płytki / panele)', 'Gładzie', 'Oświetlenie'],
-    toolIds: ['wiertarko-wkretarka', 'poziomica-laserowa', 'walek-pedzel', 'pila-tarczowa'],
+    works: [
+      { id: 'malowanie', label: 'Malowanie', share: 0.3, toolIds: ['walek-pedzel', 'drabina'] },
+      { id: 'podloga', label: 'Podłoga (płytki / panele)', share: 0.35, toolIds: ['pila-tarczowa', 'poziomica-laserowa'] },
+      { id: 'gladzie', label: 'Gładzie', share: 0.2, toolIds: ['szlifierka-katowa'] },
+      { id: 'oswietlenie', label: 'Oświetlenie', share: 0.15, toolIds: ['wiertarko-wkretarka'] },
+    ],
   },
   {
     id: 'garaz',
@@ -124,7 +154,11 @@ export const rooms: Room[] = [
     emoji: '🔧',
     baseCostPerM2: 550,
     laborShare: 0.5,
-    scope: ['Malowanie', 'Posadzka (żywica / farba)', 'Półki i regały', 'Oświetlenie'],
-    toolIds: ['wiertarko-wkretarka', 'szlifierka-katowa', 'wiertarka-udarowa', 'pila-tarczowa'],
+    works: [
+      { id: 'malowanie', label: 'Malowanie', share: 0.35, toolIds: ['walek-pedzel'] },
+      { id: 'posadzka', label: 'Posadzka (żywica / farba)', share: 0.35, toolIds: ['szlifierka-katowa', 'mieszadlo'] },
+      { id: 'polki', label: 'Półki i regały', share: 0.2, toolIds: ['wiertarko-wkretarka', 'poziomica-laserowa'] },
+      { id: 'oswietlenie', label: 'Oświetlenie', share: 0.1, toolIds: ['wiertarko-wkretarka', 'osprzet-wiertla'] },
+    ],
   },
 ];

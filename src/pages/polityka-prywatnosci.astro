@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const pageTitle = 'Polityka prywatności';
+const pageDescription =
+  'Polityka prywatności serwisu Majsterkuj — jakie dane zbieramy, jak je wykorzystujemy i jak chronimy Twoją prywatność.';
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <article class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Polityka prywatności</h1>
+    <div class="article-body mt-6">
+      <p>Niniejsza polityka opisuje zasady przetwarzania danych w serwisie <strong>Majsterkuj</strong>.</p>
+
+      <h2>1. Dane zbierane automatycznie</h2>
+      <p>
+        Podczas korzystania ze strony zbieramy anonimowe dane statystyczne (np. liczba odwiedzin,
+        źródła ruchu) za pomocą narzędzi analitycznych. Dane te nie pozwalają na bezpośrednią
+        identyfikację użytkownika.
+      </p>
+
+      <h2>2. Pliki cookies</h2>
+      <p>
+        Serwis korzysta wyłącznie z mechanizmów technicznych niezbędnych do działania strony. Nie
+        stosujemy śledzących plików cookies wymagających zgody.
+      </p>
+
+      <h2>3. Linki afiliacyjne</h2>
+      <p>
+        Część linków prowadzących do produktów to linki afiliacyjne. Kliknięcie i zakup przez taki
+        link może wiązać się z prowizją dla serwisu, bez dodatkowych kosztów dla Ciebie.
+      </p>
+
+      <h2>4. Twoje prawa</h2>
+      <p>
+        Masz prawo do dostępu do swoich danych, ich poprawiania oraz usunięcia. W sprawach
+        dotyczących prywatności skontaktuj się z nami.
+      </p>
+
+      <h2>5. Kontakt</h2>
+      <p>W razie pytań napisz na: <a href="mailto:kontakt@majsterkuj.vercel.app">kontakt@majsterkuj.vercel.app</a></p>
+    </div>
+  </article>
+</Layout>

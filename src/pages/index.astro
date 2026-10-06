@@ -55,6 +55,13 @@ const pageDescription =
           </div>
         </fieldset>
 
+        <fieldset class="mt-6">
+          <legend class="text-sm font-semibold text-slate-700">4. Zakres prac</legend>
+          <div id="works" class="mt-2 space-y-1.5">
+            <!-- wypełniane przez JavaScript -->
+          </div>
+        </fieldset>
+
         <button
           type="submit"
           class="mt-6 w-full rounded-lg bg-orange-600 px-4 py-3 font-semibold text-white transition-colors hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-400"
@@ -77,6 +84,7 @@ const pageDescription =
   const roomSelect = document.getElementById('room');
   const areaInput = document.getElementById('area');
   const resultEl = document.getElementById('result');
+  const worksEl = document.getElementById('works');
 
   const currency = new Intl.NumberFormat('pl-PL', {
     style: 'currency',
@@ -88,21 +96,49 @@ const pageDescription =
     return tools.find((t) => t.id === id);
   }
 
+  function currentRoom() {
+    return rooms.find((r) => r.id === roomSelect.value);
+  }
+
+  function renderWorks() {
+    const room = currentRoom();
+    if (!room) return;
+    worksEl.innerHTML = room.works
+      .map(
+        (w) => `
+        <label class="flex cursor-pointer items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2">
+          <input type="checkbox" name="work" value="${w.id}" checked class="h-4 w-4 accent-orange-600" />
+          <span class="text-sm text-slate-700">${w.label}</span>
+        </label>`,
+      )
+      .join('');
+  }
+
+  function selectedWorks(room) {
+    const boxes = form.querySelectorAll('input[name="work"]:checked');
+    const ids = new Set(Array.from(boxes).map((b) => b.value));
+    return room.works.filter((w) => ids.has(w.id));
+  }
+
   function calculate(roomId, area, standardId) {
     const room = rooms.find((r) => r.id === roomId);
     const standard = standards.find((s) => s.id === standardId);
     const areaNum = Number(area);
     if (!room || !standard || !areaNum || areaNum <= 0) return null;
 
+    const selected = selectedWorks(room);
+    const share = selected.reduce((sum, w) => sum + w.share, 0);
+
     const costPerM2 = room.baseCostPerM2 * standard.multiplier;
-    const mid = areaNum * costPerM2;
+    const mid = areaNum * costPerM2 * share;
     const low = mid * 0.85;
     const high = mid * 1.15;
     const labor = mid * room.laborShare;
     const materials = mid * (1 - room.laborShare);
-    const toolList = room.toolIds.map(toolById).filter(Boolean);
+    const toolIds = [...new Set(selected.flatMap((w) => w.toolIds))];
+    const toolList = toolIds.map(toolById).filter(Boolean);
 
-    return { room, standard, area: areaNum, low, high, labor, materials, toolList };
+    return { room, standard, area: areaNum, selected, share, low, high, labor, materials, toolList };
   }
 
   function renderResult(data) {
@@ -112,7 +148,13 @@ const pageDescription =
       return;
     }
 
-    const { room, standard, area, low, high, labor, materials, toolList } = data;
+    const { room, standard, area, selected, low, high, labor, materials, toolList } = data;
+
+    if (selected.length === 0) {
+      resultEl.innerHTML =
+        '<p class="text-slate-500">Zaznacz przynajmniej jedną pracę w sekcji "Zakres prac".</p>';
+      return;
+    }
 
     const toolsHtml = toolList
       .map(
@@ -160,7 +202,7 @@ const pageDescription =
       <div class="mt-5">
         <h3 class="text-sm font-semibold text-slate-700">Zakres prac</h3>
         <div class="mt-2 flex flex-wrap gap-2">
-          ${room.scope.map((s) => `<span class="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-700">${s}</span>`).join('')}
+          ${selected.map((w) => `<span class="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-700">${w.label}</span>`).join('')}
         </div>
       </div>
 
@@ -188,9 +230,14 @@ const pageDescription =
     e.preventDefault();
     update();
   });
-  roomSelect.addEventListener('change', update);
+  roomSelect.addEventListener('change', () => {
+    renderWorks();
+    update();
+  });
   areaInput.addEventListener('input', update);
   form.querySelectorAll('input[name="standard"]').forEach((el) => el.addEventListener('change', update));
+  worksEl.addEventListener('change', update);
 
+  renderWorks();
   update();
 </script>

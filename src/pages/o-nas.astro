@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const pageTitle = 'O nas';
+const pageDescription =
+  'Majsterkuj — narzędzia i poradniki do majsterkowania. Dowiedz się, czym się zajmujemy i jak korzystać z kalkulatora kosztów remontu.';
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <article class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">O nas</h1>
+    <div class="article-body mt-6">
+      <p>
+        <strong>Majsterkuj</strong> to serwis dla osób, które remontują, budują i majsterkują
+        samodzielnie. Łączymy praktyczne narzędzia z rzetelnymi poradnikami zakupowymi.
+      </p>
+      <h2>Co znajdziesz na stronie</h2>
+      <ul>
+        <li>
+          <strong>Kalkulator kosztów remontu</strong> — oszacuj koszt remontu lub wykończenia
+          pomieszczenia i sprawdź, jakie narzędzia będą Ci potrzebne.
+        </li>
+        <li>
+          <strong>Poradniki i rankingi</strong> — praktyczne przewodniki po elektronarzędziach, które
+          pomogą wybrać właściwy sprzęt.
+        </li>
+      </ul>
+      <h2>Jak korzystać</h2>
+      <p>
+        Wszystkie narzędzia i poradniki są darmowe. Niektóre linki do produktów to linki afiliacyjne
+        — jeśli kupisz przez nie produkt, możemy otrzymać prowizję. Nie wpływa to na cenę, którą
+        płacisz.
+      </p>
+    </div>
+  </article>
+</Layout>
