@@ -58,8 +58,8 @@ const articleImages: Record<string, string> = {
   'ranking-frezarek-gornowrzecionowych': '/images/wood-router.jpg',
   'ranking-kompresorow': '/images/air-compressor.webp',
   'ranking-szlifierek-tasmowych': '/images/belt-sander.jpg',
-  'ranking-kluczy-udarowych': '/images/toolbox.jpg',
-  'ranking-mlotowiertarek': '/images/hammer-drill.jpg',
+  'ranking-kluczy-udarowych': '/images/impact-wrench.jpg',
+  'ranking-mlotowiertarek': '/images/rotary-hammer.jpg',
 };
 
 export function articleImage(id: string): string | undefined {
