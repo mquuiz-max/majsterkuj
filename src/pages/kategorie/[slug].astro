@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { categories, categoryFor } from '../../data/categories';
-import { coverEmoji } from '../../data/covers';
+import { coverEmoji, articleImage } from '../../data/covers';
 
 export async function getStaticPaths() {
   return categories.map((c) => ({ params: { slug: c.id }, props: { category: c } }));
@@ -68,9 +68,9 @@ const articles = (await getCollection('articles'))
                 class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 opacity-0 transition-opacity group-hover:opacity-100"
                 aria-hidden="true"
               ></span>
-              {categoryFor(article.id).image ? (
+              {(articleImage(article.id) ?? categoryFor(article.id).image) ? (
                 <img
-                  src={categoryFor(article.id).image}
+                  src={articleImage(article.id) ?? categoryFor(article.id).image}
                   alt=""
                   class="mb-4 h-28 w-full rounded-xl object-cover"
                   loading="lazy"

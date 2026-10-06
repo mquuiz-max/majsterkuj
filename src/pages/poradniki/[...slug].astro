@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
-import { coverEmoji } from '../../data/covers';
+import { coverEmoji, articleImage } from '../../data/covers';
 import { extractFaq, relatedArticles } from '../../lib/seo';
 import { categoryFor } from '../../data/categories';
 
@@ -20,6 +20,7 @@ const allArticles = await getCollection('articles');
 const related = relatedArticles(allArticles, article, 3);
 const faqItems = extractFaq(article.body);
 const category = categoryFor(article.id);
+const coverImage = articleImage(article.id) ?? category.image;
 
 const siteUrl = 'https://majsterkuj.vercel.app';
 const canonicalPath = `/poradniki/${article.id}/`;
@@ -94,9 +95,9 @@ const schema = JSON.stringify(schemaParts);
       </ol>
     </nav>
     {
-      category.image ? (
+      coverImage ? (
         <img
-          src={category.image}
+          src={coverImage}
           alt={category.name}
           class="mt-6 mb-8 h-48 w-full rounded-2xl object-cover"
           loading="lazy"
