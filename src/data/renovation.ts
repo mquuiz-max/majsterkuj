@@ -2,7 +2,7 @@
 // Stawki są orientacyjne (średnie rynkowe w zł/m² dla standardu "standardowy").
 // Po uzyskaniu kont afiliacyjnych (Awin/Ceneo) podmień pole `affiliateUrl`.
 
-export type RoomId = 'lazienka' | 'kuchnia' | 'salon' | 'sypialnia' | 'przedpokoj' | 'garaz';
+export type RoomId = 'lazienka' | 'kuchnia' | 'salon' | 'sypialnia' | 'przedpokoj' | 'garaz' | 'poddasze' | 'piwnica' | 'taras' | 'pralnia' | 'garderoba';
 export type StandardId = 'ekonomiczny' | 'standardowy' | 'premium';
 
 export interface Tool {
@@ -159,6 +159,74 @@ export const rooms: Room[] = [
       { id: 'posadzka', label: 'Posadzka (żywica / farba)', share: 0.35, toolIds: ['szlifierka-katowa', 'mieszadlo'] },
       { id: 'polki', label: 'Półki i regały', share: 0.2, toolIds: ['wiertarko-wkretarka', 'poziomica-laserowa'] },
       { id: 'oswietlenie', label: 'Oświetlenie', share: 0.1, toolIds: ['wiertarko-wkretarka', 'osprzet-wiertla'] },
+    ],
+  },
+  {
+    id: 'poddasze',
+    name: 'Poddasze / strych',
+    emoji: '🏚️',
+    baseCostPerM2: 1200,
+    laborShare: 0.55,
+    works: [
+      { id: 'ocieplenie', label: 'Ocieplenie i izolacja', share: 0.3, toolIds: ['pila-tarczowa', 'wiertarko-wkretarka'] },
+      { id: 'zabudowa', label: 'Zabudowa (karton-gips)', share: 0.25, toolIds: ['wiertarko-wkretarka', 'szlifierka-katowa'] },
+      { id: 'podloga', label: 'Podłoga', share: 0.2, toolIds: ['pila-ukosnica', 'poziomica-laserowa'] },
+      { id: 'malowanie', label: 'Malowanie', share: 0.15, toolIds: ['walek-pedzel', 'drabina'] },
+      { id: 'oswietlenie', label: 'Oświetlenie', share: 0.1, toolIds: ['wiertarko-wkretarka', 'osprzet-wiertla'] },
+    ],
+  },
+  {
+    id: 'piwnica',
+    name: 'Piwnica',
+    emoji: '🧱',
+    baseCostPerM2: 700,
+    laborShare: 0.55,
+    works: [
+      { id: 'osuszanie', label: 'Osuszanie i izolacja', share: 0.35, toolIds: ['mieszadlo', 'szlifierka-katowa'] },
+      { id: 'posadzka', label: 'Posadzka', share: 0.25, toolIds: ['mieszadlo', 'poziomica-laserowa'] },
+      { id: 'malowanie', label: 'Malowanie', share: 0.15, toolIds: ['walek-pedzel'] },
+      { id: 'polki', label: 'Półki i regały', share: 0.15, toolIds: ['wiertarko-wkretarka', 'poziomica-laserowa'] },
+      { id: 'oswietlenie', label: 'Oświetlenie', share: 0.1, toolIds: ['wiertarko-wkretarka'] },
+    ],
+  },
+  {
+    id: 'taras',
+    name: 'Balkon / taras',
+    emoji: '🪴',
+    baseCostPerM2: 800,
+    laborShare: 0.5,
+    works: [
+      { id: 'hydroizolacja', label: 'Hydroizolacja', share: 0.25, toolIds: ['mieszadlo', 'paca-kielnia'] },
+      { id: 'plytki', label: 'Płytki', share: 0.35, toolIds: ['mieszadlo', 'paca-kielnia', 'przecinarka-glazury', 'poziomica-laserowa'] },
+      { id: 'balustrada', label: 'Balustrada / obróbki', share: 0.25, toolIds: ['wiertarko-wkretarka', 'wiertarka-udarowa'] },
+      { id: 'malowanie', label: 'Wykończenie i malowanie', share: 0.15, toolIds: ['walek-pedzel'] },
+    ],
+  },
+  {
+    id: 'pralnia',
+    name: 'Pralnia',
+    emoji: '🧺',
+    baseCostPerM2: 1900,
+    laborShare: 0.5,
+    works: [
+      { id: 'instalacje', label: 'Woda, kanalizacja i prąd', share: 0.3, toolIds: ['wiertarko-wkretarka', 'wiertarka-udarowa'] },
+      { id: 'glazura', label: 'Glazura', share: 0.25, toolIds: ['mieszadlo', 'paca-kielnia', 'przecinarka-glazury', 'poziomica-laserowa'] },
+      { id: 'zabudowa', label: 'Zabudowa i montaż', share: 0.2, toolIds: ['wiertarko-wkretarka', 'oscylacyjna'] },
+      { id: 'malowanie', label: 'Malowanie', share: 0.15, toolIds: ['walek-pedzel', 'drabina'] },
+      { id: 'podloga', label: 'Podłoga', share: 0.1, toolIds: ['poziomica-laserowa'] },
+    ],
+  },
+  {
+    id: 'garderoba',
+    name: 'Garderoba',
+    emoji: '🧥',
+    baseCostPerM2: 1000,
+    laborShare: 0.55,
+    works: [
+      { id: 'zabudowa', label: 'Zabudowa (szafy)', share: 0.45, toolIds: ['wiertarko-wkretarka', 'oscylacyjna', 'poziomica-laserowa'] },
+      { id: 'podloga', label: 'Podłoga', share: 0.2, toolIds: ['pila-ukosnica', 'poziomica-laserowa'] },
+      { id: 'malowanie', label: 'Malowanie', share: 0.2, toolIds: ['walek-pedzel', 'drabina'] },
+      { id: 'oswietlenie', label: 'Oświetlenie', share: 0.15, toolIds: ['wiertarko-wkretarka', 'osprzet-wiertla'] },
     ],
   },
 ];
