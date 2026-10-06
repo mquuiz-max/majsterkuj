@@ -17,6 +17,11 @@ const byId: Record<string, string> = {
   'jaka-poziomica-laserowa-do-remontu': '📐',
   'ile-kosztuje-remont-kuchni': '🍳',
   'jak-pomalowac-sciany-krok-po-kroku': '🎨',
+  'ranking-wiertarek-udarowych': '🧱',
+  'ranking-wkretarek-akumulatorowych': '🔩',
+  'ranking-szlifierek-mimosrodowych': '🪵',
+  'ranking-pil-ukosnic': '🪚',
+  'ranking-odkurzaczy-warsztatowych': '🧹',
 };
 
 export function coverEmoji(id: string): string {
