@@ -30,6 +30,7 @@ webpage/
 ├── astro.config.mjs          # site + adapter @astrojs/vercel; integrations: sitemap(); vite: tailwind
 ├── package.json              # ⚠️ zawiera "allowScripts": {"esbuild": true} — NIE usuwać!
 ├── .env.example              # ⭐ wzór zmiennych afiliacyjnych (Awin / Ceneo / domeny)
+├── WYTYCZNE-SEO.md           # ⭐⭐⭐ ŚWIĘTOŚĆ — wytyczne + szablon artykułu (obowiązkowe przy każdej treści)
 ├── tsconfig.json
 ├── run-dev.bat               # skrót do `npm.cmd run dev`
 ├── public/robots.txt         # z wpisem Sitemap + Disallow /api/
@@ -102,6 +103,7 @@ webpage/
 1. Potwierdzić stan gita (`git status`) i czy commity wypchnięte.
 2. ✅ Rozbudowa kalkulatora — dodano 5 pomieszczeń (poddasze, piwnica, balkon/taras, pralnia, garderoba; łącznie 11). Dalej opcjonalnie: więcej prac/standardów, wariant „całe mieszkanie” (suma pomieszczeń).
 3. ✅ Zasada treści = **niszowe (long-tail) zapytania, o które ludzie naprawdę pytają** — weryfikacja przez Google Autocomplete (`suggestqueries.google.com/complete/search`). Model: **filar (szeroki) + satelity (wąskie, linkowane sekcją „Zobacz też")**. Łącznie: 12 nowych filarów + 20 satelitów (8 do nowych + 12 do istniejących artykułów). Dalej: skalować tę zasadę, kategorie produktów, „historia cen" (Ceneo API).
+4. ⭐ **Każdy nowy artykuł MUSI spełniać `WYTYCZNE-SEO.md`** — to świętość (fraza long-tail zweryfikowana autocompletem → H1 z frazą → H2 jako pytania → konkret/tabele → FAQ/HowTo → linki wewnętrzne + spójne tagi).
 4. ✅ Integracja afiliacji (szkielet) — pozostało: podpiąć klucze + prawdziwe linki (zweryfikować endpoint Ceneo wg oficjalnej dokumentacji).
 5. ✅ SEO (canonical, og:image, schema Article/FAQPage/HowTo/BreadcrumbList, linkowanie wewnętrzne, kategorie, robots.txt, E-E-A-T). Ewentualnie dalej: og:image jako PNG, Core Web Vitals, schema Product w rankingach (po podpięciu prawdziwych cen).
 6. Opcjonalnie: domena własna `majsterkuj.pl` podpięta do Vercel.
