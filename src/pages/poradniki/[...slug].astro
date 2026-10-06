@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { coverEmoji, articleImage } from '../../data/covers';
-import { extractFaq, relatedArticles } from '../../lib/seo';
+import { extractFaq, relatedArticles, extractSteps } from '../../lib/seo';
 import { categoryFor } from '../../data/categories';
 
 export async function getStaticPaths() {
@@ -19,6 +19,7 @@ const { Content } = await render(article);
 const allArticles = await getCollection('articles');
 const related = relatedArticles(allArticles, article, 3);
 const faqItems = extractFaq(article.body);
+const steps = extractSteps(article.body);
 const category = categoryFor(article.id);
 const coverImage = articleImage(article.id) ?? category.image;
 
@@ -70,6 +71,15 @@ if (faqItems.length > 0) {
       name: q,
       acceptedAnswer: { '@type': 'Answer', text: a },
     })),
+  });
+}
+if (steps.length > 0) {
+  schemaParts.push({
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: article.data.title,
+    description: article.data.description,
+    step: steps.map((s) => ({ '@type': 'HowToStep', name: s.name, text: s.text })),
   });
 }
 const schema = JSON.stringify(schemaParts);

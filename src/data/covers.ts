@@ -37,6 +37,12 @@ const byId: Record<string, string> = {
   'jaka-wiertarka-do-domu': '🔩',
   'jak-zamontowac-polke': '🔩',
   'jak-odnowic-meble': '🪑',
+  'ile-kosztuje-wylewka': '🧱',
+  'ile-kosztuje-gladz': '🎨',
+  'jaka-pila-do-galezi': '🪚',
+  'jak-uszczelnic-wanne': '🛁',
+  'jak-odgrzybic-fugi': '🧽',
+  'ile-kosztuje-remont-pokoju': '🏠',
 };
 
 export function coverEmoji(id: string): string {
@@ -80,6 +86,12 @@ const articleImages: Record<string, string> = {
   'jaka-wiertarka-do-domu': '/images/cordless-drill.jpg',
   'jak-zamontowac-polke': '/images/drill-bits.jpg',
   'jak-odnowic-meble': '/images/orbital-sander.jpg',
+  'ile-kosztuje-wylewka': '/images/apartment.jpg',
+  'ile-kosztuje-gladz': '/images/paint-roller.jpg',
+  'jaka-pila-do-galezi': '/images/circular-saw.jpg',
+  'jak-uszczelnic-wanne': '/images/bathroom.jpg',
+  'jak-odgrzybic-fugi': '/images/bathroom.jpg',
+  'ile-kosztuje-remont-pokoju': '/images/apartment.jpg',
 };
 
 export function articleImage(id: string): string | undefined {

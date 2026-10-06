@@ -81,6 +81,12 @@ const articleCategory: Record<string, string> = {
   'jaka-wiertarka-do-domu': 'wiertarki-wkretarki',
   'jak-zamontowac-polke': 'remont-wykonczenia',
   'jak-odnowic-meble': 'szlifierki-pily',
+  'ile-kosztuje-wylewka': 'remont-wykonczenia',
+  'ile-kosztuje-gladz': 'remont-wykonczenia',
+  'jaka-pila-do-galezi': 'szlifierki-pily',
+  'jak-uszczelnic-wanne': 'remont-wykonczenia',
+  'jak-odgrzybic-fugi': 'remont-wykonczenia',
+  'ile-kosztuje-remont-pokoju': 'remont-wykonczenia',
 };
 
 export function categoryFor(articleId: string): Category {

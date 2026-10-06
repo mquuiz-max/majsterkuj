@@ -51,6 +51,45 @@ export function extractFaq(markdown: string): FaqItem[] {
   return items;
 }
 
+export interface HowToStep {
+  name: string;
+  text: string;
+}
+
+/**
+ * Wyciąga kroki z sekcji "## Krok N: ..." w treści Markdown (do schema HowTo).
+ */
+export function extractSteps(markdown: string): HowToStep[] {
+  const lines = markdown.split(/\r?\n/);
+  const steps: HowToStep[] = [];
+  let current: { name: string } | null = null;
+  let text: string[] = [];
+
+  const flush = () => {
+    if (current) {
+      const t = stripMarkdown(text.join(' '));
+      if (t) steps.push({ name: stripMarkdown(current.name), text: t });
+      current = null;
+      text = [];
+    }
+  };
+
+  for (const line of lines) {
+    const m = line.match(/^##\s+(Krok\s+\d+[:.\s].*)$/i);
+    if (m) {
+      flush();
+      current = { name: m[1].trim() };
+      text = [];
+    } else if (line.startsWith('## ') || line.startsWith('# ')) {
+      flush();
+    } else if (current && line.trim() !== '') {
+      text.push(line.trim());
+    }
+  }
+  flush();
+  return steps;
+}
+
 interface ArticleLike {
   id: string;
   data: {
