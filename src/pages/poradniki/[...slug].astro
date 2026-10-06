@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { coverEmoji } from '../../data/covers';
+import { extractFaq, relatedArticles } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -13,6 +14,10 @@ export async function getStaticPaths() {
 
 const { article } = Astro.props;
 const { Content } = await render(article);
+
+const allArticles = await getCollection('articles');
+const related = relatedArticles(allArticles, article, 3);
+const faqItems = extractFaq(article.body);
 
 const siteUrl = 'https://majsterkuj.vercel.app';
 const canonicalPath = `/poradniki/${article.id}/`;
@@ -33,6 +38,7 @@ const articleSchema = {
   publisher: { '@type': 'Organization', name: 'Majsterkuj', url: siteUrl },
   mainEntityOfPage: articleUrl,
   keywords: article.data.tags.join(', '),
+  image: new URL('/og-image.svg', siteUrl).href,
   inLanguage: 'pl-PL',
 };
 
@@ -46,7 +52,19 @@ const breadcrumbSchema = {
   ],
 };
 
-const schema = JSON.stringify([articleSchema, breadcrumbSchema]);
+const schemaParts: unknown[] = [articleSchema, breadcrumbSchema];
+if (faqItems.length > 0) {
+  schemaParts.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  });
+}
+const schema = JSON.stringify(schemaParts);
 ---
 
 <Layout
@@ -57,9 +75,15 @@ const schema = JSON.stringify([articleSchema, breadcrumbSchema]);
     schema={schema}
   >
   <article class="mx-auto max-w-3xl px-4 py-10">
-    <a href="/poradniki/" class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 transition-colors hover:text-orange-600">
-      <span aria-hidden="true">←</span> Wszystkie poradniki
-    </a>
+    <nav aria-label="Nawigacja okruszkowa" class="text-sm text-slate-500">
+      <ol class="flex flex-wrap items-center gap-1.5">
+        <li><a href="/" class="transition-colors hover:text-orange-600">Strona główna</a></li>
+        <li aria-hidden="true">›</li>
+        <li><a href="/poradniki/" class="transition-colors hover:text-orange-600">Poradniki</a></li>
+        <li aria-hidden="true">›</li>
+        <li class="max-w-[16rem] truncate font-medium text-slate-700 sm:max-w-xs">{article.data.title}</li>
+      </ol>
+    </nav>
     <div
       class="mt-6 mb-8 flex h-44 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-100 via-amber-50 to-orange-50 text-8xl"
       aria-hidden="true"
@@ -87,6 +111,40 @@ const schema = JSON.stringify([articleSchema, breadcrumbSchema]);
 
     <div class="article-body">
       <Content />
+    </div>
+
+    {
+      related.length > 0 && (
+        <section class="mt-12 border-t border-slate-100 pt-8">
+          <h2 class="text-lg font-bold text-slate-900">Powiązane artykuły</h2>
+          <div class="mt-4 grid gap-4 sm:grid-cols-3">
+            {related.map((r) => (
+              <a
+                href={`/poradniki/${r.id}/`}
+                class="group rounded-xl border border-slate-200 p-4 transition-colors hover:border-orange-200 hover:bg-orange-50/60"
+              >
+                <p class="text-xs font-medium text-orange-600">{r.data.seoKeyword}</p>
+                <p class="mt-1.5 text-sm font-semibold leading-snug text-slate-900 group-hover:text-orange-600">
+                  {r.data.title}
+                </p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <div class="mt-8 rounded-2xl bg-gradient-to-r from-orange-50 to-amber-50 p-5">
+      <p class="font-semibold text-slate-900">Planujesz remont?</p>
+      <p class="mt-1 text-sm text-slate-600">
+        Oblicz koszt w naszym kalkulatorze i sprawdź, jakie narzędzia będą Ci potrzebne.
+      </p>
+      <a
+        href="/"
+        class="mt-3 inline-block rounded-lg bg-orange-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-orange-700"
+      >
+        Otwórz kalkulator →
+      </a>
     </div>
   </article>
 </Layout>
