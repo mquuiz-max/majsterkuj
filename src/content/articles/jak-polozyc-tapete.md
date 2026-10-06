@@ -1,5 +1,5 @@
 ---
-title: "Jak położyć tapetę krok po kroku — bez pęcherzy i łączeń"
+title: "Jak położyć tapetę krok po kroku"
 description: "Tapeta flizelinowa czy winylowa? Zobacz, jak przygotować ścianę, przyciąć bryty i położyć tapetę bez pęcherzy, łączeń i odstawania brzegów."
 publishDate: 2026-10-06
 seoKeyword: "jak położyć tapetę"

@@ -1,5 +1,5 @@
 ---
-title: "Jak zamontować półkę do karton-gipsu — kołki i nośność"
+title: "Jak zamontować półkę do karton-gipsu?"
 description: "Ściana z karton-gipsu wymaga specjalnych kołków. Sprawdź, jak zamontować półkę do karton-gipsu, jaki kołek wybrać i ile udźwignie."
 publishDate: 2026-10-06
 seoKeyword: "jak zamontować półkę do karton-gipsu"

@@ -1,6 +1,6 @@
 ---
-title: "Ile kosztuje remont łazienki 5 m²? Przykładowy kosztorys"
-description: "Ile kosztuje remont małej łazienki 5 m²? Podajemy realny przedział kosztów (robocizna + materiały) w trzech standardach wykończenia."
+title: "Ile kosztuje remont łazienki 5m2? Przykładowy kosztorys"
+description: "Ile kosztuje remont łazienki 5m2? Podajemy realny przedział kosztów (robocizna + materiały) w trzech standardach wykończenia."
 publishDate: 2026-10-06
 seoKeyword: "ile kosztuje remont łazienki 5m2"
 tags: ["remont łazienki", "kosztorys", "koszt remontu"]
@@ -40,6 +40,14 @@ Remont łazienki to zwykle **najdroższe pomieszczenie w przeliczeniu na metr** 
 - Zostaw układ punktów wodnych bez zmian (bez przesuwania rur).
 - Wybierz płytki ze średniej półki, a zaoszczędź na armaturze.
 - Część prac (malowanie sufitu, demontaż) zrób sam.
+
+## Najczęściej zadawane pytania
+
+### Ile kosztuje remont łazienki 5m2?
+Realnie **14–19 tys. zł** w standardzie średnim. Ekonomiczny to ok. 10–13 tys. zł, premium — 21–28 tys. zł.
+
+### Co jest najdroższe w remoncie łazienki?
+Glazura i armatura. Przesuwanie hydrauliki potrafi dodatkowo podwoić koszt.
 
 ## Podsumowanie
 

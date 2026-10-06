@@ -1,5 +1,5 @@
 ---
-title: "Czym wiercić w płytkach, żeby nie pękły? Wiertła i technika"
+title: "Czym wiercić w płytkach? Wiertła i technika"
 description: "Wiercenie w glazurze bez pęknięć to kwestia odpowiedniego wiertła i techniki. Sprawdź, czym wiercić w płytkach i jak bezpiecznie zamontować półkę w łazience."
 publishDate: 2026-10-06
 seoKeyword: "czym wiercić w płytkach"

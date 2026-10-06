@@ -1,5 +1,5 @@
 ---
-title: "Jak zrobić gładź bez szlifowania — gładź natryskowa i na mokro"
+title: "Jak zrobić gładź bez szlifowania?"
 description: "Szlifowanie gładzi to kurz i czas. Sprawdź, jak zrobić gładź bez szlifowania — masą natryskową lub wygładzaną na mokro — i kiedy to się sprawdza."
 publishDate: 2026-10-06
 seoKeyword: "jak zrobić gładź bez szlifowania"

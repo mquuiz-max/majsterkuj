@@ -1,5 +1,5 @@
 ---
-title: "Jaki zestaw narzędzi na start? Lista dla początkującego majsterkowicza"
+title: "Jaki zestaw narzędzi na start? Lista dla początkującego"
 description: "Zaczynasz przygodę z majsterkowaniem? Sprawdź, jakie narzędzia kupić na start — od wiertarko-wkrętarki po komplet bitów — i na czym nie oszczędzać."
 publishDate: 2026-10-06
 seoKeyword: "jaki zestaw narzędzi na start"

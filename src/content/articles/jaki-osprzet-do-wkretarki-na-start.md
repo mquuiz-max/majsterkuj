@@ -1,5 +1,5 @@
 ---
-title: "Jaki osprzęt do wkrętarki kupić na start? Kompletny zestaw"
+title: "Jaki osprzęt do wkrętarki na start? Kompletny zestaw"
 description: "Kupiłeś wkrętarkę i nie wiesz, jaki osprzęt wybrać na początek? Lista bitów, wierteł i akcesoriów, które realnie wykorzystasz."
 publishDate: 2026-10-06
 seoKeyword: "jaki osprzęt do wkrętarki na start"

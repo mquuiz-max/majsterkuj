@@ -1,5 +1,5 @@
 ---
-title: "Jak odnowić meble kuchenne — folia, farba i okleina krok po kroku"
+title: "Jak odnowić meble kuchenne? Folia, farba, okleina"
 description: "Stare fronty kuchenne można odświeżyć bez wymiany całej zabudowy. Zobacz, jak odnowić meble kuchenne folią, farbą lub nową okleiną."
 publishDate: 2026-10-06
 seoKeyword: "jak odnowić meble kuchenne"

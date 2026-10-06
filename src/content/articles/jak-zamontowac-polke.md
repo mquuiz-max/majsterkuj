@@ -1,5 +1,5 @@
 ---
-title: "Jak zamontować półkę na ścianie — poradnik krok po kroku"
+title: "Jak zamontować półkę na ścianie?"
 description: "Montaż półki to prosta praca, ale wymaga solidnego zamocowania. Zobacz, jak wywiercić otwory, dobrać kołki i powiesić półkę prosto."
 publishDate: 2026-10-06
 seoKeyword: "jak zamontować półkę"

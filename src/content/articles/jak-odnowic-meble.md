@@ -1,5 +1,5 @@
 ---
-title: "Jak odnowić stare meble — poradnik krok po kroku"
+title: "Jak odnowić meble — poradnik krok po kroku"
 description: "Renowacja starych mebli to świetny sposób na ich drugie życie. Zobacz, jak przeszlifować, naprawić i pomalować meble krok po kroku."
 publishDate: 2026-10-06
 seoKeyword: "jak odnowić meble"

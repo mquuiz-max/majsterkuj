@@ -1,5 +1,5 @@
 ---
-title: "Jaka szlifierka oscylacyjna do domu? Ranking 2026 i poradnik zakupowy"
+title: "Jaka szlifierka oscylacyjna do domu? Ranking 2026"
 description: "Narzędzie wielofunkcyjne (oscylacyjne) to szwajcarski scyzoryk wśród elektronarzędzi. Sprawdź, na co zwrócić uwagę i jakie modele warto kupić do domu."
 publishDate: 2026-10-06
 seoKeyword: "jaka szlifierka oscylacyjna do domu"

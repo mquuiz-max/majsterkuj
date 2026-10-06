@@ -1,5 +1,5 @@
 ---
-title: "Jak usunąć silikon — skuteczne sposoby bez rysowania powierzchni"
+title: "Jak usunąć silikon? Skuteczne sposoby"
 description: "Stary silikon przy wannie, prysznicu czy umywalce? Sprawdź, jak go usunąć mechanicznie, chemicznie i domowymi sposobami, żeby nie porysować glazury."
 publishDate: 2026-10-06
 seoKeyword: "jak usunąć silikon"

@@ -1,5 +1,5 @@
 ---
-title: "Czym odgrzybić ścianę? Domowe sposoby i środki grzybobójcze"
+title: "Czym odgrzybić ścianę? Domowe sposoby i środki"
 description: "Grzyb na ścianie to zagrożenie dla zdrowia i konstrukcji. Sprawdź, czym odgrzybić ścianę, jak usunąć przyczynę wilgoci i zapobiec nawrotowi pleśni."
 publishDate: 2026-10-06
 seoKeyword: "czym odgrzybić ścianę"

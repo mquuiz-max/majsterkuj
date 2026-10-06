@@ -1,5 +1,5 @@
 ---
-title: "Jak odgrzybić pralkę — domowe sposoby i środki do pralki"
+title: "Jak odgrzybić pralkę? Domowe sposoby"
 description: "Nieprzyjemny zapach i pleśń w pralce to częsty problem. Sprawdź, jak odgrzybić pralkę, wyczyścić uszczelkę i zapobiec nawrotowi grzyba."
 publishDate: 2026-10-06
 seoKeyword: "jak odgrzybić pralkę"

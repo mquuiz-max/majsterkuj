@@ -1,5 +1,5 @@
 ---
-title: "Jaka wiertarko-wkrętarka do 400 zł? Ranking 2026 i poradnik zakupowy"
+title: "Jaka wiertarko-wkrętarka do 400 zł? Ranking 2026"
 description: "Szukasz dobrej wiertarko-wkrętarki do 400 zł? Sprawdź, na co zwrócić uwagę, i poznaj najlepsze modele w tym budżecie wraz z linkami do zakupu."
 publishDate: 2026-10-06
 seoKeyword: "jaka wiertarko-wkrętarka do 400 zł"

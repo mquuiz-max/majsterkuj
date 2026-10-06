@@ -1,6 +1,6 @@
 ---
-title: "Ile kosztuje remont mieszkania 50 m²? Kosztorys i podział kosztów"
-description: "Ile kosztuje remont mieszkania 50 m²? Sprawdź realny przedział kosztów w podziale na pomieszczenia oraz wskazówki, na czym oszczędzać."
+title: "Ile kosztuje remont mieszkania 50m2? Kosztorys"
+description: "Ile kosztuje remont mieszkania 50m2? Sprawdź realny przedział kosztów w podziale na pomieszczenia oraz wskazówki, na czym oszczędzać."
 publishDate: 2026-10-06
 seoKeyword: "ile kosztuje remont mieszkania 50m2"
 tags: ["remont mieszkania", "kosztorys", "koszt remontu"]
@@ -40,6 +40,14 @@ Zazwyczaj podział to **mniej więcej pół na pół**: robocizna ~50%, materia�
 1. **Zleć tylko trudne prace** (hydraulika, elektryka, glazura), a malowanie i demontaż zrób sam.
 2. **Kupuj materiały z wyprzedzeniem** i porównuj ceny w marketach online.
 3. **Nie zmieniaj układu pomieszczeń** — przesuwanie ścian i instalacji to najdroższa część remontu.
+
+## Najczęściej zadawane pytania
+
+### Ile kosztuje remont mieszkania 50m2?
+W standardzie średnim **55–75 tys. zł**. Ekonomiczny to ok. 38–52 tys. zł, premium — 85–115 tys. zł.
+
+### Jakie pomieszczenie jest najdroższe w remoncie?
+Łazienka i kuchnia — przez hydraulikę, glazurę i armaturę.
 
 ## Podsumowanie
 

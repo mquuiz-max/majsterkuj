@@ -1,5 +1,5 @@
 ---
-title: "Jak wytłumić ścianę od sąsiada? Skuteczne sposoby na hałas"
+title: "Jak wytłumić ścianę od sąsiada?"
 description: "Hałas za ścianą potrafi uprzykrzyć życie. Sprawdź, jak wytłumić ścianę od sąsiada — od tanich paneli po profesjonalne systemy akustyczne."
 publishDate: 2026-10-06
 seoKeyword: "jak wytłumić ścianę od sąsiada"

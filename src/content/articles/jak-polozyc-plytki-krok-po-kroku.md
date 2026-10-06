@@ -1,5 +1,5 @@
 ---
-title: "Jak położyć płytki krok po kroku — poradnik dla początkujących"
+title: "Jak położyć płytki krok po kroku"
 description: "Układanie płytek to wymagająca, ale możliwa do zrobienia praca. Zobacz krok po kroku, jak przygotować podłoże, przykleić płytki i zafugować."
 publishDate: 2026-10-06
 seoKeyword: "jak położyć płytki"

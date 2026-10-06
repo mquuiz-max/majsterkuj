@@ -1,5 +1,5 @@
 ---
-title: "Jak położyć panele podłogowe krok po kroku — poradnik 2026"
+title: "Jak położyć panele podłogowe krok po kroku"
 description: "Układanie paneli podłogowych to praca, którą zrobisz samodzielnie. Zobacz krok po kroku, jak przygotować podłoże, ułożyć panele i zamontować listwy."
 publishDate: 2026-10-06
 seoKeyword: "jak położyć panele podłogowe"
