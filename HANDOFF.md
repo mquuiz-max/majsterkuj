@@ -15,7 +15,7 @@ Model: przydatne narzędzie + poradniki → ruch z Google → linki afiliacyjne 
 ## 2. Stack technologiczny
 - **Astro 7.3.5** (wybrane zamiast Next.js — priorytet: szybkość i treści statyczne)
 - **TypeScript**, **Tailwind CSS 4.3.3** (via `@tailwindcss/vite`)
-- **@astrojs/sitemap**, **@vercel/analytics** (v2.0.1)
+- **@astrojs/sitemap**, **@vercel/analytics** (v2.0.1), **@astrojs/vercel** (adapter — endpointy serverless)
 - Hosting: **Vercel** (darmowy) → `https://majsterkuj.vercel.app/`
 - GitHub: user **`mquuiz-max`**, repo **`majsterkuj`**
 
@@ -32,41 +32,49 @@ webpage/
 ├── .env.example              # ⭐ wzór zmiennych afiliacyjnych (Awin / Ceneo / domeny)
 ├── tsconfig.json
 ├── run-dev.bat               # skrót do `npm.cmd run dev`
-├── public/robots.txt         # z wpisem Sitemap
+├── public/robots.txt         # z wpisem Sitemap + Disallow /api/
 ├── public/favicon.svg
+├── public/og-image.svg       # og:image (SVG — docelowo podmienić na PNG)
+├── public/images/            # ⭐ 20 zdjęć okładek (Wikimedia Commons, CC)
 ├── src/
 │   ├── styles/global.css     # Tailwind + style .article-body (proza)
-│   ├── layouts/Layout.astro  # <head> meta+SEO+google-site-verification, nav, footer, <Analytics/>
+│   ├── layouts/Layout.astro  # <head> meta+SEO+JSON-LD+google-site-verification, nav, footer, <Analytics/>
 │   ├── content.config.ts     # kolekcja "articles" (glob loader + schema z)
-│   ├── content/articles/     # 10 artykułów SEO (.md)
+│   ├── content/articles/     # ⭐ 40 artykułów SEO (.md) — rankingi/kosztorysy/DIY
 │   ├── data/renovation.ts    # ⭐ pomieszczenia + prace(works) + narzędzia + standardy (stawki!)
-│   ├── data/seo-keywords.ts  # 10 fraz SEO z researchu
+│   ├── data/seo-keywords.ts  # 10 fraz SEO z researchu (startowy research)
+│   ├── data/covers.ts        # ⭐ emoji + zdjęcia okładek per artykuł (coverEmoji / articleImage)
+│   ├── data/categories.ts    # ⭐ 4 kategorie + mapowanie artykuł->kategoria (categoryFor)
 │   ├── lib/affiliate/        # ⭐ config.ts + links.ts (deep-link Awin, cloak) + awin.ts + ceneo.ts
+│   ├── lib/seo.ts            # ⭐ extractFaq + extractSteps + relatedArticles (schema + linkowanie)
 │   └── pages/
 │       ├── api/click.ts      # ⭐ cloakowanie kliknięć (302 → link afiliacyjny)
 │       ├── api/offers.ts     # dane produktów z Ceneo/Awin
 │       ├── index.astro       # ⭐ kalkulator kosztów remontu (formularz + wynik, vanilla JS)
-│       ├── poradniki/index.astro        # lista artykułów
-│       ├── poradniki/[...slug].astro    # szablon artykułu
+│       ├── poradniki/index.astro        # lista artykułów + filtry kategorii
+│       ├── poradniki/[...slug].astro    # szablon artykułu (breadcrumbs, powiązane, schema)
+│       ├── kategorie/[slug].astro       # ⭐ strony kategorii
 │       ├── o-nas.astro
 │       └── polityka-prywatnosci.astro
 ```
 
 ## 5. Co jest zbudowane i DZIAŁA
-1. **Kalkulator kosztów remontu** — pomieszczenie + metraż + standard + **checkboxy zakresu prac** → przedział kosztów (robocizna/materiały) + lista narzędzi z linkami afiliacyjnymi (placeholdery `#`).
-2. **10 artykułów SEO** (content collection) — rankingi, porównania, kosztorysy.
-3. **sitemap-index.xml + sitemap-0.xml** (14 adresów).
-4. **Google Search Console** — tag weryfikacyjny w `<head>`.
-5. **Vercel Analytics** — `<Analytics />` w layout.
-6. Strony **„O nas"** i **„Polityka prywatności"** + linki w stopce.
-7. **Build przechodzi** (14 stron, exit 0). Ostatnia weryfikacja OK.
-8. **Integracja afiliacyjna (szkielet)** — endpointy serverless `/api/click` (cloakowanie kliknięć) i `/api/offers` (dane produktów), konfiguracja z env (Awin/Ceneo). Działa bez kluczy: linki przekierowują bezpośrednio do sklepu (bez prowizji).
+1. **Kalkulator kosztów remontu** — pomieszczenie + metraż + standard + checkboxy zakresu prac → przedział kosztów (robocizna/materiały) + lista narzędzi (linki to placeholdery `#`).
+2. **40 artykułów SEO** (content collection): rankingi narzędzi, kosztorysy remontów, poradniki DIY „jak zrobić", poradniki zakupowe.
+3. **4 kategorie** + strony `/kategorie/[slug]` + filtry na liście poradników.
+4. **SEO techniczne**: canonical, og:*/twitter, sitemap, robots.txt, JSON-LD (WebSite, Organization, BlogPosting, BreadcrumbList, FAQPage per artykuł, HowTo per DIY).
+5. **Linkowanie wewnętrzne**: sekcja „Powiązane artykuły" + CTA do kalkulatora (dobierane auto wg tagów).
+6. **Zdjęcia okładek**: 20 plików w `public/images/` + mapowanie per artykuł (`covers.ts`).
+7. **Google Search Console** (tag weryfikacyjny) + **Vercel Analytics**.
+8. Strony „O nas" / „Polityka prywatności".
+9. **Integracja afiliacyjna (szkielet, UŚPIONA)**: `/api/click` (cloak) + `/api/offers` — bez kluczy linki są neutralne (zero prowizji).
+10. **Build przechodzi** (40+ stron + 2 funkcje serverless, exit 0).
 
 ## 6. Git
 - Repo zainicjalizowane, branch **`main`**, zdalne `origin` → `https://github.com/mquuiz-max/majsterkuj.git`.
 - Autor commitów: `mquuiz-max <mquuiz-max@users.noreply.github.com>`.
-- 5 commitów (od najnowszego): `kalkulator-checkboxy-i-strony-info`, `dodaj-google-search-console`, `dodaj-vercel-analytics`, `fix-sitemap-domain`, `Initial-commit`.
-- ⚠️ Ostatnie 4 commity mogą wymagać `git push` (właściciel robi to sam — wymaga logowania GitHub).
+- Historia (od najnowszych): `dodaj-6-artykulow-oraz-schema-howto`, `dodaj-artykuly-pod-slowa-kluczowe-diy-i-kosztorysy`, `popraw-mape-zdjec-klucz-i-mlotowiertarka`, `dodaj-zdjecia-per-artykul`, `dodaj-zdjecia-okladek-kategorii`, `seo-strony-kategorii-robots-i-e-e-a-t`, `seo-linkowanie-wewnetrzne-faq-schema-i-breadcrumbs`, `dodaj-rankingi-frezarek-kompresorow-szlifierek-tasmowych-kluczy-i-mlotowiertarek`, `dodaj-rankingi-wiertarek-wkretarek-szlifierek-pil-i-odkurzaczy`, `dodaj-grafiki-okladki-artykulow-i-ilustracje-hero`, `seo-szkielet-afiliacji-nowe-artykuly-i-odswiezenie-wizualne`, `dodaj-dokument-handoff`, `kalkulator-checkboxy-i-strony-info`, `dodaj-google-search-console`, `dodaj-vercel-analytics`, `fix-sitemap-domain`, `Initial-commit`.
+- ⚠️ Ok. 12 commitów przed `origin/main` — wymagają `git push` (właściciel robi to sam).
 
 ## 7. PUŁAPKI TECHNICZNE (ważne dla kontynuacji)
 1. **PowerShell blokuje `npm`** (polityka wykonywania). Używać `npm.cmd` lub `cmd /c npm ...`.
@@ -77,9 +85,11 @@ webpage/
 6. **Domena w `site`** (`astro.config.mjs`) = `majsterkuj.vercel.app`. Po kupnie własnej domeny — zaktualizować i przebudować.
 7. **Astro 7** — usunięto `output: "hybrid"`; endpointy serverless wymagają `export const prerender = false` + adaptera `@astrojs/vercel`.
 8. **Node 26 lokalnie** — Vercel Serverless używają Node 24 (build pokazuje warning, nie blokuje).
+9. **Terminal PSReadLine** — przy długich/wieloznakowych komendach potrafi się wysypać (błędy „SetCursorPosition"). Pisać skrypty do `.ps1` i odpalać `powershell -ExecutionPolicy Bypass -File x.ps1`; długie operacje puszczać przez pliki-marker (`.ok`/`.log`).
+10. **Wikimedia Commons rate-limiting (429)** — przy pobieraniu zdjęć robić opóźnienia (`Start-Sleep`) i ustawiać User-Agent; nie szarżować z liczbą zapytań.
 
 ## 8. Do zrobienia (po stronie właściciela — wymaga jego kont/logowań)
-- [ ] `git push` (4 commity).
+- [ ] `git push` (ok. 12 commitów).
 - [ ] Google Search Console: kliknąć „Zweryfikuj" + zgłosić sitemap `https://majsterkuj.vercel.app/sitemap-index.xml`.
 - [ ] Włączyć Vercel Analytics w panelu (Settings → Analytics → Enable).
 - [ ] Wrzucić link na fora (Wykop #remontujzwykopem, muratordom) — pierwszy ruch.
@@ -90,9 +100,9 @@ webpage/
 ## 9. Sugerowane dalsze kroki (do wykonania przez agenta)
 1. Potwierdzić stan gita (`git status`) i czy commity wypchnięte.
 2. Rozbudowa kalkulatora: więcej pomieszczeń / prac (struktura `works` już jest).
-3. Więcej treści: kolejne frazy (lista w `seo-keywords.ts`), kategorie produktów, porównania, „historia cen".
-4. ✅ Integracja afiliacji (szkielet): `src/lib/affiliate/*` + `/api/click` (cloak) + `/api/offers`. Pozostało: podpiąć klucze + podać prawdziwe linki produktów (i zweryfikować endpoint Ceneo wg oficjalnej dokumentacji).
-5. SEO: dodać og:image, schema.org (Article, FAQPage), poprawić Core Web Vitals.
+3. Więcej treści: kolejne frazy (wylewka, gładź, piła do gałęzi, uszczelnianie, odgrzybianie — wzór już jest); kategorie produktów; „historia cen".
+4. ✅ Integracja afiliacji (szkielet) — pozostało: podpiąć klucze + prawdziwe linki (zweryfikować endpoint Ceneo wg oficjalnej dokumentacji).
+5. ✅ SEO (canonical, og:image, schema Article/FAQPage/HowTo/BreadcrumbList, linkowanie wewnętrzne, kategorie, robots.txt, E-E-A-T). Ewentualnie dalej: og:image jako PNG, Core Web Vitals, schema Product w rankingach (po podpięciu prawdziwych cen).
 6. Opcjonalnie: domena własna `majsterkuj.pl` podpięta do Vercel.
 
 ## 10. Jak uruchomić
