@@ -22,6 +22,11 @@ const byId: Record<string, string> = {
   'ranking-szlifierek-mimosrodowych': '🪵',
   'ranking-pil-ukosnic': '🪚',
   'ranking-odkurzaczy-warsztatowych': '🧹',
+  'ranking-frezarek-gornowrzecionowych': '🪵',
+  'ranking-kompresorow': '💨',
+  'ranking-szlifierek-tasmowych': '⚙️',
+  'ranking-kluczy-udarowych': '🔧',
+  'ranking-mlotowiertarek': '🔨',
 };
 
 export function coverEmoji(id: string): string {
