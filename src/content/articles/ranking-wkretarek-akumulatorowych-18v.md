@@ -1,6 +1,6 @@
 ---
 title: "Ranking wkrętarek akumulatorowych 18V 2026"
-description: "Wkrętarka 18V to dziś standard — uniwersalna moc do drewna, metalu i montażu. Sprawdź ranking najlepszych modeli i na co zwrócić uwagę."
+description: "Ranking wkrętarek akumulatorowych 18V 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking wkrętarek akumulatorowych 18V"
 tags: ["wkrętarka", "18V", "ranking"]

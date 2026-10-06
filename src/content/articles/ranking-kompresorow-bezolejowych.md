@@ -1,6 +1,6 @@
 ---
 title: "Ranking kompresorów bezolejowych 2026"
-description: "Kompresor bezolejowy jest lekki, bezobsługowy i nie brudzi sprężonego powietrza olejem. Sprawdź ranking modeli i na co zwrócić uwagę."
+description: "Ranking kompresorów bezolejowych 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking kompresorów bezolejowych"
 tags: ["kompresor", "bezolejowy", "ranking"]

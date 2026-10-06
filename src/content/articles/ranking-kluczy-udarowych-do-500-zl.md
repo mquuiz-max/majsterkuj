@@ -1,6 +1,6 @@
 ---
 title: "Ranking kluczy udarowych do 500 zł 2026"
-description: "Klucz udarowy do odkręcania kół i śrub bez wysiłku? Sprawdź ranking najlepszych modeli do 500 zł i na co zwrócić uwagę przy zakupie."
+description: "Ranking kluczy udarowych do 500 zł — sprawdź najlepsze modele w budżecie i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking kluczy udarowych do 500 zł"
 tags: ["klucz udarowy", "ranking", "budżet"]

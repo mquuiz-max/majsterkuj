@@ -1,6 +1,6 @@
 ---
 title: "Jakie wiertła do betonu? Rodzaje, oznaczenia i poradnik"
-description: "Wiertło do betonu to podstawa prac w twardych materiałach. Sprawdź, jakie wiertła SDS-Plus wybrać, czym się różnią i jak wiercić w betonie bez przegrzewania."
+description: "Jakie wiertła do betonu? Rodzaje SDS-Plus, oznaczenia i poradnik, jak wiercić bez przegrzewania."
 publishDate: 2026-10-06
 seoKeyword: "jakie wiertła do betonu"
 tags: ["wiertła", "beton", "SDS-Plus", "poradnik zakupowy"]

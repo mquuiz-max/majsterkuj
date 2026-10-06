@@ -1,6 +1,6 @@
 ---
 title: "Jaka wiertarka do betonu do 500 zł? Ranking i poradnik"
-description: "Wiercisz w betonie i szukasz wiertarki udarowej do 500 zł? Sprawdź, na co zwrócić uwagę i które modele SDS-Plus są warte uwagi."
+description: "Jaka wiertarka do betonu do 500 zł? Sprawdź ranking modeli SDS-Plus i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "jaka wiertarka do betonu do 500 zł"
 tags: ["wiertarka udarowa", "SDS-Plus", "ranking", "do 500 zł"]

@@ -1,6 +1,6 @@
 ---
 title: "Ranking odkurzaczy warsztatowych 2026"
-description: "Odkurzacz warsztatowy posprząta pył, wióry i zanieczyszczenia po remoncie. Sprawdź ranking modeli i dowiedz się, na co zwrócić uwagę."
+description: "Ranking odkurzaczy warsztatowych 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking odkurzaczy warsztatowych"
 tags: ["odkurzacz warsztatowy", "sprzątanie", "ranking"]

@@ -1,6 +1,6 @@
 ---
 title: "Jaka poziomica laserowa do remontu? Ranking 2026"
-description: "Poziomica laserowa przyspiesza wyznaczanie linii przy płytkach, gładziach i zabudowie. Dowiedz się, jaką wybrać do remontu domu i mieszkania."
+description: "Jaka poziomica laserowa do remontu? Sprawdź ranking i na co zwrócić uwagę przy zakupie."
 publishDate: 2026-10-06
 seoKeyword: "jaka poziomica laserowa do remontu"
 tags: ["poziomica laserowa", "pomiary", "ranking"]

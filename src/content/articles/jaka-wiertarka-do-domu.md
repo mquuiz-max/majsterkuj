@@ -1,6 +1,6 @@
 ---
 title: "Jaka wiertarka do domu? Poradnik zakupowy 2026"
-description: "Wiertarko-wkrętarka, wiertarka udarowa czy sieciowa? Sprawdź, jaka wiertarka sprawdzi się w domu i na co zwrócić uwagę przy zakupie."
+description: "Jaka wiertarka do domu? Wiertarko-wkrętarka, udarowa czy sieciowa — pomagamy wybrać."
 publishDate: 2026-10-06
 seoKeyword: "jaka wiertarka do domu"
 tags: ["wiertarka", "poradnik zakupowy", "ranking"]

@@ -1,6 +1,6 @@
 ---
 title: "Jak wywiercić otwór w betonie — poradnik krok po kroku"
-description: "Wiercenie w betonie wymaga wiertarki udarowej i dobrego wiertła. Zobacz, jak wywiercić czysty otwór w betonie bez uszkodzenia ściany."
+description: "Jak wywiercić otwór w betonie? Zobacz, jak wywiercić czysty otwór bez uszkodzenia ściany."
 publishDate: 2026-10-06
 seoKeyword: "jak wywiercić otwór w betonie"
 tags: ["wiercenie w betonie", "wiertarka udarowa", "poradnik DIY"]

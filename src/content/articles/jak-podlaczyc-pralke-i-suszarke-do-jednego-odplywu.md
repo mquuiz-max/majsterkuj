@@ -1,6 +1,6 @@
 ---
 title: "Jak podłączyć pralkę i suszarkę do jednego odpływu?"
-description: "Pralka i suszarka na jednym odpływie? Sprawdź, jak połączyć je trójnikiem, na jakiej wysokości i jak uniknąć cofania się wody i syfonowania."
+description: "Jak podłączyć pralkę i suszarkę do jednego odpływu? Trójnik, wysokość i klapa zwrotna — bez cofania wody."
 publishDate: 2026-10-06
 seoKeyword: "jak podłączyć pralkę i suszarkę do jednego odpływu"
 tags: ["pralka", "suszarka", "odpływ", "poradnik DIY"]

@@ -1,6 +1,6 @@
 ---
 title: "Jak pomalować ściany krok po kroku"
-description: "Malowanie ścian to najprostszy sposób na odświeżenie wnętrza. Zobacz krok po kroku, jak przygotować ściany, jakie narzędzia wybrać i jak malować bez smug."
+description: "Jak pomalować ściany? Zobacz krok po kroku, jak przygotować ściany i malować bez smug."
 publishDate: 2026-10-06
 seoKeyword: "jak pomalować ściany"
 tags: ["malowanie", "ściany", "poradnik DIY"]

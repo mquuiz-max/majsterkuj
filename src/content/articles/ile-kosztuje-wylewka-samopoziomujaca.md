@@ -1,6 +1,6 @@
 ---
 title: "Ile kosztuje wylewka samopoziomująca? Cennik 2026"
-description: "Wylewka samopoziomująca to wygodny sposób na idealnie równą podłogę. Sprawdź, ile kosztuje za m² — robocizna, materiał i przykład 20 m²."
+description: "Ile kosztuje wylewka samopoziomująca? Sprawdź ceny za m², robociznę i przykładowy koszt wylewki 20 m²."
 publishDate: 2026-10-06
 seoKeyword: "ile kosztuje wylewka samopoziomująca"
 tags: ["wylewka", "samopoziomująca", "kosztorys"]

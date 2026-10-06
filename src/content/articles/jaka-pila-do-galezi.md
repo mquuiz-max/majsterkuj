@@ -1,6 +1,6 @@
 ---
 title: "Jaka piła do gałęzi? Ranking 2026"
-description: "Piła do gałęzi — ręczna, akumulatorowa czy spalinowa? Sprawdź ranking najlepszych pilarek do przycinania drzew i na co zwrócić uwagę."
+description: "Jaka piła do gałęzi? Ręczna, akumulatorowa czy spalinowa — sprawdź ranking i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "jaka piła do gałęzi"
 tags: ["piła do gałęzi", "pilarka", "ranking"]

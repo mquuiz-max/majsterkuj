@@ -1,6 +1,6 @@
 ---
 title: "Wkrętarka Makita czy Bosch — którą markę wybrać?"
-description: "Makita czy Bosch? Porównujemy dwie najpopularniejsze marki wkrętarek, ich systemy akumulatorowe i podpowiadamy, którą wybrać."
+description: "Wkrętarka Makita czy Bosch? Porównujemy systemy akumulatorowe i podpowiadamy, którą wybrać."
 publishDate: 2026-10-06
 seoKeyword: "wkrętarka makita czy bosch"
 tags: ["makita", "bosch", "porównanie", "wkrętarka"]

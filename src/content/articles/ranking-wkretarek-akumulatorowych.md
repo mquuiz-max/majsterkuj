@@ -1,6 +1,6 @@
 ---
 title: "Ranking wkrętarek akumulatorowych 2026"
-description: "Zakrętarka udarowa to inny sprzęt niż wiertarko-wkrętarka. Sprawdź ranking najlepszych wkrętarek akumulatorowych i dowiedz się, którą wybrać."
+description: "Ranking wkrętarek akumulatorowych 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking wkrętarek akumulatorowych"
 tags: ["wkrętarka", "zakrętarka", "ranking"]

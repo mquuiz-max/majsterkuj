@@ -1,6 +1,6 @@
 ---
 title: "Ranking wiertarek udarowych (SDS-Plus) 2026"
-description: "Szukasz wiertarki udarowej do betonu i cegły? Sprawdź ranking najlepszych modeli SDS-Plus, na co zwrócić uwagę i którą wybrać do domu."
+description: "Ranking wiertarek udarowych 2026 — sprawdź najlepsze modele SDS-Plus i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking wiertarek udarowych"
 tags: ["wiertarka udarowa", "SDS-Plus", "ranking"]

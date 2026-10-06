@@ -1,6 +1,6 @@
 ---
 title: "Jaka opalarka do usuwania farby? Poradnik zakupowy"
-description: "Usuwanie farby opalarką jest szybkie i bez chemii. Sprawdź, jaka temperatura i moc wystarczą oraz jaką dyszę wybrać do zdzierania farby."
+description: "Jaka opalarka do usuwania farby? Podpowiadamy, jaka moc i dysza sprawdzą się do zdzierania farby z drewna."
 publishDate: 2026-10-06
 seoKeyword: "jaka opalarka do usuwania farby"
 tags: ["opalarka", "farba", "renowacja", "poradnik zakupowy"]

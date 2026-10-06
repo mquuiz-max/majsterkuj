@@ -1,6 +1,6 @@
 ---
 title: "Ranking frezarek górnowrzecionowych 2026"
-description: "Frezarka górnowrzecionowa do profili, wpustów i krawędzi w drewnie. Sprawdź ranking modeli i dowiedz się, na co zwrócić uwagę przy zakupie."
+description: "Ranking frezarek górnowrzecionowych 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking frezarek górnowrzecionowych"
 tags: ["frezarka", "obróbka drewna", "ranking"]

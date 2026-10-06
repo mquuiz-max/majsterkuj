@@ -1,6 +1,6 @@
 ---
 title: "Jaka opalarka do czego służy? Poradnik zakupowy"
-description: "Opalarka przyda się do usuwania farby, zgrzewania folii i rozgrzewania rur. Sprawdź, jaka moc i temperatura wystarczą do domu oraz na co uważać."
+description: "Jaka opalarka do czego służy? Sprawdź moc, temperaturę i zastosowania — od usuwania farby po zgrzewanie folii."
 publishDate: 2026-10-06
 seoKeyword: "jaka opalarka do czego służy"
 tags: ["opalarka", "narzędzia", "warsztat", "poradnik zakupowy"]

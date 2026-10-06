@@ -1,6 +1,6 @@
 ---
 title: "Ile kosztuje remont kuchni bez mebli? Cennik 2026"
-description: "Remont kuchni bez mebli to instalacje, glazura, podłoga i malowanie. Sprawdź, ile kosztuje za m² i jak policzyć koszt w kalkulatorze."
+description: "Ile kosztuje remont kuchni bez mebli? Podajemy stawki za m² i przykładowy kosztorys kuchni 10 m²."
 publishDate: 2026-10-06
 seoKeyword: "ile kosztuje remont kuchni bez mebli"
 tags: ["remont kuchni", "kosztorys", "kalkulator"]

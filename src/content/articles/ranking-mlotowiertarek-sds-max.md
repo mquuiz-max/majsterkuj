@@ -1,6 +1,6 @@
 ---
 title: "Ranking młotowiertarek SDS-Max 2026"
-description: "Młotowiertarka SDS-Max to sprzęt do kucia, skuwania i ciężkiego wiercenia w betonie. Sprawdź ranking modeli i na co zwrócić uwagę."
+description: "Ranking młotowiertarek SDS-Max 2026 — sprawdź najlepsze modele do kucia i rozbiórki."
 publishDate: 2026-10-06
 seoKeyword: "ranking młotowiertarek SDS-Max"
 tags: ["młotowiertarka", "SDS-Max", "ranking"]

@@ -1,6 +1,6 @@
 ---
 title: "Najlepsza szlifierka kątowa do 300 zł — ranking 2026"
-description: "Szukasz szlifierki kątowej do 300 zł? Sprawdź, na co zwrócić uwagę i które modele dają najlepszy stosunek ceny do jakości."
+description: "Najlepsza szlifierka kątowa do 300 zł? Sprawdź, które modele dają najlepszy stosunek ceny do jakości."
 publishDate: 2026-10-06
 seoKeyword: "najlepsza szlifierka kątowa do 300 zł"
 tags: ["szlifierka kątowa", "ranking", "do 300 zł"]

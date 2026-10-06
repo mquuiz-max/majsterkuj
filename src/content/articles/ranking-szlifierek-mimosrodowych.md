@@ -1,6 +1,6 @@
 ---
 title: "Ranking szlifierek mimośrodowych do drewna 2026"
-description: "Szlifierka mimośrodowa to najlepsze narzędzie do szlifowania drewna. Sprawdź ranking modeli, na co zwrócić uwagę i którą wybrać do warsztatu."
+description: "Ranking szlifierek mimośrodowych 2026 — sprawdź najlepsze modele do drewna."
 publishDate: 2026-10-06
 seoKeyword: "ranking szlifierek mimośrodowych"
 tags: ["szlifierka mimośrodowa", "szlifowanie drewna", "ranking"]

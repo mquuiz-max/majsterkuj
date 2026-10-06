@@ -1,6 +1,6 @@
 ---
 title: "Ranking kompresorów do warsztatu 2026"
-description: "Kompresor do pompowania, czyszczenia, gwoździarek i malowania. Sprawdź ranking modeli i dowiedz się, na co zwrócić uwagę przy zakupie."
+description: "Ranking kompresorów 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking kompresorów"
 tags: ["kompresor", "warsztat", "ranking"]

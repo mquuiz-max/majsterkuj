@@ -1,6 +1,6 @@
 ---
 title: "Jaka wyrzynarka do paneli podłogowych? Poradnik zakupowy"
-description: "Cięcie paneli wymaga czystego, prostego cięcia. Sprawdź, jaka wyrzynarka sprawdzi się do paneli, jaki brzeszczot i czy lepsza będzie ukośnica."
+description: "Jaka wyrzynarka do paneli podłogowych? Sprawdź, jaki brzeszczot i model wybrać do czystego cięcia."
 publishDate: 2026-10-06
 seoKeyword: "jaka wyrzynarka do paneli podłogowych"
 tags: ["wyrzynarka", "panele podłogowe", "podłoga", "poradnik zakupowy"]

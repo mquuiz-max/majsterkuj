@@ -1,6 +1,6 @@
 ---
 title: "Najlepsza wiertarko-wkrętarka dla początkującego"
-description: "Kupujesz pierwszą wiertarko-wkrętarkę? Podpowiadamy, jaki model wybrać na start i na jakie parametry zwrócić uwagę."
+description: "Najlepsza wiertarko-wkrętarka dla początkującego? Podpowiadamy, jaki model wybrać na start."
 publishDate: 2026-10-06
 seoKeyword: "najlepsza wiertarko-wkrętarka dla początkującego"
 tags: ["wiertarko-wkrętarka", "dla początkujących", "poradnik"]

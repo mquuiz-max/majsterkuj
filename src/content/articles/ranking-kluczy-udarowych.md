@@ -1,6 +1,6 @@
 ---
 title: "Ranking kluczy udarowych 2026"
-description: "Klucz udarowy do odkręcania śrub i kół samochodowych. Sprawdź ranking modeli i dowiedz się, na co zwrócić uwagę przy zakupie."
+description: "Ranking kluczy udarowych 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking kluczy udarowych"
 tags: ["klucz udarowy", "elektronarzędzia", "ranking"]

@@ -1,6 +1,6 @@
 ---
 title: "Jak zrobić gładź na ścianie krok po kroku"
-description: "Gładź to sposób na idealnie równe ściany przed malowaniem. Zobacz krok po kroku, jak zrobić gładź gipsową, czym ją szlifować i ile schnie."
+description: "Jak zrobić gładź na ścianie? Zobacz krok po kroku, jak nałożyć gładź gipsową, czym szlifować i ile schnie."
 publishDate: 2026-10-06
 seoKeyword: "jak zrobić gładź na ścianie"
 tags: ["gładź", "ściany", "wykończenia", "poradnik DIY"]

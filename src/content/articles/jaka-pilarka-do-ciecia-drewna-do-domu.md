@@ -1,6 +1,6 @@
 ---
 title: "Jaka pilarka do cięcia drewna do domu? Ranking i poradnik"
-description: "Szukasz pilarki do cięcia drewna do domu? Porównujemy pilarkę tarczową, ukośnicę i pilarkę szablastą — i podpowiadamy, którą wybrać."
+description: "Jaka pilarka do cięcia drewna do domu? Porównujemy pilarkę tarczową, ukośnicę i szablastą."
 publishDate: 2026-10-06
 seoKeyword: "jaka pilarka do cięcia drewna do domu"
 tags: ["pilarka", "cięcie drewna", "ranking", "poradnik"]

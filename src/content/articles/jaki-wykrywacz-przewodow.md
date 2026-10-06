@@ -1,6 +1,6 @@
 ---
 title: "Jaki wykrywacz przewodów i rur? Poradnik przed wierceniem"
-description: "Wiercisz w ścianie? Najpierw sprawdź, gdzie biegną przewody elektryczne i rury. Zobacz, jaki wykrywacz wybrać i jak go poprawnie używać."
+description: "Jaki wykrywacz przewodów? Sprawdź, na co zwrócić uwagę przed wierceniem i jak go używać."
 publishDate: 2026-10-06
 seoKeyword: "jaki wykrywacz przewodów"
 tags: ["wykrywacz", "przewody", "bezpieczeństwo", "poradnik zakupowy"]

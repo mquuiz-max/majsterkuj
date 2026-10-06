@@ -1,6 +1,6 @@
 ---
 title: "Jaka wyrzynarka do drewna? Poradnik zakupowy 2026"
-description: "Wyrzynarka to wszechstronne narzędzie do cięć krzywych i prostych w drewnie. Sprawdź, na co zwrócić uwagę i jaki model wybrać do domu."
+description: "Jaka wyrzynarka do drewna? Sprawdź, na co zwrócić uwagę i jaki model wybrać do domu."
 publishDate: 2026-10-06
 seoKeyword: "jaka wyrzynarka do drewna"
 tags: ["wyrzynarka", "cięcie drewna", "piły", "poradnik zakupowy"]

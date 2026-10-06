@@ -1,6 +1,6 @@
 ---
 title: "Ranking pił ukośnic 2026 — najlepsze modele do cięcia"
-description: "Piła ukośnica to podstawa przy listwach, panelach i ramach. Sprawdź ranking modeli, na co zwrócić uwagę i którą wybrać do domu."
+description: "Ranking pił ukośnic 2026 — sprawdź najlepsze modele i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking pił ukośnic"
 tags: ["piła ukośnica", "cięcie drewna", "ranking"]

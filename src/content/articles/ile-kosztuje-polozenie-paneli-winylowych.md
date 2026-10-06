@@ -1,6 +1,6 @@
 ---
 title: "Ile kosztuje położenie paneli winylowych? Cennik 2026"
-description: "Panele winylowe (LVT/SPC) są wodoodporne i trwałe. Sprawdź, ile kosztuje ich położenie za m² — robocizna, materiał i podkład."
+description: "Ile kosztuje położenie paneli winylowych? Sprawdź stawki za m² (robocizna + materiał) i przykładowy koszt pokoju 20 m²."
 publishDate: 2026-10-06
 seoKeyword: "ile kosztuje położenie paneli winylowych"
 tags: ["panele winylowe", "panele podłogowe", "podłoga", "kosztorys"]

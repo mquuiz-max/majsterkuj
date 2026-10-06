@@ -1,6 +1,6 @@
 ---
 title: "Jak położyć tapetę na suficie?"
-description: "Tapeta na suficie wymaga innej techniki niż na ścianie. Zobacz, jak ją przyciąć, przykleić i wygładzić bez pęcherzy i odstawania brzegów."
+description: "Jak położyć tapetę na suficie? Zobacz, jak przyciąć, przykleić i wygładzić bryty bez pęcherzy."
 publishDate: 2026-10-06
 seoKeyword: "jak położyć tapetę na suficie"
 tags: ["tapeta", "sufit", "poradnik DIY"]

@@ -1,6 +1,6 @@
 ---
 title: "Jak usunąć silikon z brodzika prysznicowego?"
-description: "Stary silikon na brodziku prysznicowym pleśnieje i puszcza. Zobacz, jak go usunąć krok po kroku i nałożyć nowy, żeby fuga była szczelna."
+description: "Jak usunąć silikon z brodzika prysznicowego? Zobacz krok po kroku, jak usunąć i nałożyć nowy bez rysowania."
 publishDate: 2026-10-06
 seoKeyword: "jak usunąć silikon z brodzika prysznicowego"
 tags: ["silikon", "brodzik", "prysznic", "poradnik DIY"]

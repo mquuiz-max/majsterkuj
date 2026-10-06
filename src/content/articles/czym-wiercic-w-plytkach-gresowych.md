@@ -1,6 +1,6 @@
 ---
 title: "Czym wiercić w płytkach gresowych? Wiertła i technika"
-description: "Gres jest twardy i kruchy — zwykłe wiertło go nie weźmie. Sprawdź, czym wiercić w gresie, żeby zrobić otwór bez pęknięcia płytki."
+description: "Czym wiercić w płytkach gresowych? Wiertła diamentowe i chłodzenie wodą — sprawdź technikę, żeby nie pękła płytka."
 publishDate: 2026-10-06
 seoKeyword: "czym wiercić w płytkach gresowych"
 tags: ["gres", "płytki", "wiercenie", "poradnik DIY"]

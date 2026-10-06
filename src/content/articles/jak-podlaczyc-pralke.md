@@ -1,6 +1,6 @@
 ---
 title: "Jak podłączyć pralkę krok po kroku"
-description: "Podłączenie pralki to prosta praca hydrauliczna, którą zrobisz sam. Zobacz krok po kroku, jak podłączyć dopływ wody, odpływ i zasilanie bez ryzyka zalania."
+description: "Jak podłączyć pralkę? Zobacz krok po kroku, jak podłączyć wodę, odpływ i zasilanie bez ryzyka zalania."
 publishDate: 2026-10-06
 seoKeyword: "jak podłączyć pralkę"
 tags: ["pralka", "hydraulika", "pralnia", "poradnik DIY"]

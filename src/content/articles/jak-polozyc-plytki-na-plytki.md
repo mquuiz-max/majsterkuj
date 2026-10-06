@@ -1,6 +1,6 @@
 ---
 title: "Jak położyć płytki na płytki?"
-description: "Położenie płytek na stare płytki oszczędza demontaż. Sprawdź, kiedy to możliwe, jak przygotować podłoże i czym kleić, żeby nowa glazura trzymała."
+description: "Jak położyć płytki na płytki? Sprawdź, kiedy to możliwe, jak przygotować podłoże i czym kleić."
 publishDate: 2026-10-06
 seoKeyword: "jak położyć płytki na płytki"
 tags: ["płytki", "glazura", "poradnik DIY"]
