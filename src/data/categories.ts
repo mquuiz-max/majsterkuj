@@ -5,6 +5,8 @@ export interface Category {
   name: string;
   emoji: string;
   description: string;
+  /** Ścieżka do zdjęcia w public/images/ (opcjonalna okładka kategorii). */
+  image?: string;
 }
 
 export const categories: Category[] = [
@@ -13,24 +15,28 @@ export const categories: Category[] = [
     name: 'Wiertarki i wkrętarki',
     emoji: '🔩',
     description: 'Rankingi i poradniki o wiertarkach, wiertarko-wkrętarkach, wkrętarkach i młotowiertarkach.',
+    image: '/images/cordless-drill.jpg',
   },
   {
     id: 'szlifierki-pily',
     name: 'Szlifierki i piły',
     emoji: '🪚',
     description: 'Rankingi szlifierek, pilarek i frezarek do drewna, metalu i wykończeń.',
+    image: '/images/angle-grinder.jpg',
   },
   {
     id: 'remont-wykonczenia',
     name: 'Remont i wykończenia',
     emoji: '🏠',
     description: 'Kosztorysy remontów i poradniki wykończeniowe krok po kroku.',
+    image: '/images/paint-roller.jpg',
   },
   {
     id: 'warsztat-akcesoria',
     name: 'Warsztat i akcesoria',
     emoji: '🧰',
     description: 'Narzędzia i akcesoria warsztatowe: poziomice, odkurzacze, kompresory, klucze udarowe.',
+    image: '/images/toolbox.jpg',
   },
 ];
 

@@ -28,9 +28,13 @@ const articles = (await getCollection('articles'))
     </nav>
 
     <div class="mt-6 flex items-center gap-4">
-      <span class="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-100 to-amber-50 text-4xl" aria-hidden="true">
-        {category.emoji}
-      </span>
+      {category.image ? (
+        <img src={category.image} alt={category.name} class="h-16 w-16 rounded-2xl object-cover" />
+      ) : (
+        <span class="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-100 to-amber-50 text-4xl" aria-hidden="true">
+          {category.emoji}
+        </span>
+      )}
       <div>
         <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">{category.name}</h1>
         <p class="mt-1 text-slate-600">{category.description}</p>
@@ -64,12 +68,21 @@ const articles = (await getCollection('articles'))
                 class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 opacity-0 transition-opacity group-hover:opacity-100"
                 aria-hidden="true"
               ></span>
-              <div
-                class="mb-4 flex h-20 items-center justify-center rounded-xl bg-gradient-to-br from-orange-100 via-amber-50 to-orange-50 text-4xl"
-                aria-hidden="true"
-              >
-                {coverEmoji(article.id)}
-              </div>
+              {categoryFor(article.id).image ? (
+                <img
+                  src={categoryFor(article.id).image}
+                  alt=""
+                  class="mb-4 h-28 w-full rounded-xl object-cover"
+                  loading="lazy"
+                />
+              ) : (
+                <div
+                  class="mb-4 flex h-20 items-center justify-center rounded-xl bg-gradient-to-br from-orange-100 via-amber-50 to-orange-50 text-4xl"
+                  aria-hidden="true"
+                >
+                  {coverEmoji(article.id)}
+                </div>
+              )}
               <p class="text-xs font-semibold uppercase tracking-wide text-orange-600">{article.data.seoKeyword}</p>
               <h2 class="mt-2 text-lg font-bold text-slate-900 group-hover:text-orange-600">{article.data.title}</h2>
               <p class="mt-2 flex-1 text-sm text-slate-600">{article.data.description}</p>
