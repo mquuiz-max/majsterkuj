@@ -11,7 +11,7 @@ const pageDescription =
   'Poradniki zakupowe i rankingi elektronarzędzi do majsterkowania. Dowiedz się, jakie narzędzie kupić i na co zwrócić uwagę.';
 ---
 
-<Layout title={pageTitle} description={pageDescription}>
+<Layout title={pageTitle} description={pageDescription} canonicalPath="/poradniki/">
   <section class="mx-auto max-w-5xl px-4 py-10">
     <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Poradniki i rankingi</h1>
     <p class="mt-3 max-w-2xl text-lg text-slate-600">
@@ -24,18 +24,25 @@ const pageDescription =
           {articles.map((article) => (
             <a
               href={`/poradniki/${article.id}/`}
-              class="group flex flex-col rounded-2xl border border-slate-200 bg-white p-6 transition-shadow hover:shadow-md"
+              class="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:-translate-y-1 hover:border-orange-200 hover:shadow-lg"
             >
-              <p class="text-xs font-medium text-orange-600">{article.data.seoKeyword}</p>
+              <span
+                class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 opacity-0 transition-opacity group-hover:opacity-100"
+                aria-hidden="true"
+              ></span>
+              <p class="text-xs font-semibold uppercase tracking-wide text-orange-600">{article.data.seoKeyword}</p>
               <h2 class="mt-2 text-lg font-bold text-slate-900 group-hover:text-orange-600">
                 {article.data.title}
               </h2>
               <p class="mt-2 flex-1 text-sm text-slate-600">{article.data.description}</p>
-              <div class="mt-4 flex items-center gap-3 text-xs text-slate-500">
-                <time datetime={article.data.publishDate.toISOString()}>
-                  {article.data.publishDate.toLocaleDateString('pl-PL')}
-                </time>
-                {article.data.readTime && <span>· {article.data.readTime} czytania</span>}
+              <div class="mt-4 flex items-center justify-between text-xs text-slate-500">
+                <span class="flex items-center gap-3">
+                  <time datetime={article.data.publishDate.toISOString()}>
+                    {article.data.publishDate.toLocaleDateString('pl-PL')}
+                  </time>
+                  {article.data.readTime && <span>· {article.data.readTime} czytania</span>}
+                </span>
+                <span class="font-semibold text-orange-600 transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
               </div>
             </a>
           ))}

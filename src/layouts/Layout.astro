@@ -5,10 +5,40 @@ import Analytics from '@vercel/analytics/astro';
 interface Props {
   title: string;
   description: string;
+  /** Ścieżka kanoniczna (np. "/poradniki/xyz/"). Domyślnie "/". */
+  canonicalPath?: string;
+  ogType?: 'website' | 'article';
+  ogImage?: string;
+  /** Gotowy JSON-LD (string) do wstrzyknięcia w <head>. */
+  schema?: string;
 }
 
-const { title, description } = Astro.props;
+const {
+  title,
+  description,
+  canonicalPath = '/',
+  ogType = 'website',
+  ogImage = '/og-image.svg',
+  schema,
+} = Astro.props;
+
 const siteName = 'Majsterkuj';
+const siteUrl = 'https://majsterkuj.vercel.app';
+const canonicalUrl = new URL(canonicalPath, siteUrl).href;
+const ogImageUrl = ogImage.startsWith('http') ? ogImage : new URL(ogImage, siteUrl).href;
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: siteName,
+  url: siteUrl,
+  inLanguage: 'pl-PL',
+  publisher: {
+    '@type': 'Organization',
+    name: siteName,
+    url: siteUrl,
+  },
+};
 ---
 
 <!doctype html>
@@ -20,25 +50,36 @@ const siteName = 'Majsterkuj';
     <meta name="google-site-verification" content="med-rp83aPr4sBvasZpwpdWB0CRg74av9f1O1seyQz0" />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalUrl} />
     <title>{title} — {siteName}</title>
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
     <meta property="og:site_name" content={siteName} />
     <meta property="og:locale" content="pl_PL" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    {schema && <script type="application/ld+json" set:html={schema} />}
   </head>
 
   <body class="bg-white text-slate-900 antialiased">
-    <header class="border-b border-slate-200">
-      <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-        <a href="/" class="flex items-center gap-2 text-lg font-bold text-orange-600">
-          <span aria-hidden="true">🔧</span>
-          <span>Majsterkuj</span>
+    <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/80 backdrop-blur">
+      <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+        <a href="/" class="flex items-center gap-2.5 text-lg font-bold text-slate-900">
+          <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 text-lg shadow-sm" aria-hidden="true">🔧</span>
+          <span>Majster<span class="text-orange-600">kuj</span></span>
         </a>
-        <nav class="flex items-center gap-5 text-sm font-medium text-slate-600">
-          <a href="/" class="transition-colors hover:text-orange-600">Kalkulator remontu</a>
-          <a href="/poradniki/" class="transition-colors hover:text-orange-600">Poradniki</a>
+        <nav class="flex items-center gap-1 text-sm font-medium text-slate-600">
+          <a href="/" class="rounded-lg px-3 py-2 transition-colors hover:bg-orange-50 hover:text-orange-600">Kalkulator remontu</a>
+          <a href="/poradniki/" class="rounded-lg px-3 py-2 transition-colors hover:bg-orange-50 hover:text-orange-600">Poradniki</a>
         </nav>
       </div>
     </header>
@@ -47,17 +88,30 @@ const siteName = 'Majsterkuj';
       <slot />
     </main>
 
-    <footer class="mt-16 border-t border-slate-200">
-      <div class="mx-auto max-w-5xl px-4 py-8 text-sm text-slate-500">
-        <p>© {new Date().getFullYear()} Majsterkuj — narzędzia i poradniki do majsterkowania.</p>
-        <p class="mt-1 text-xs text-slate-400">
-          Linki afiliacyjne mogą generować prowizję dla serwisu. Nie wpływa to na cenę, którą płacisz.
-        </p>
-        <nav class="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-500">
-          <a href="/o-nas/" class="transition-colors hover:text-orange-600">O nas</a>
-          <a href="/polityka-prywatnosci/" class="transition-colors hover:text-orange-600">Polityka prywatności</a>
-          <a href="/sitemap-index.xml" class="transition-colors hover:text-orange-600">Mapa strony</a>
-        </nav>
+    <footer class="mt-20 border-t border-slate-200 bg-slate-50/60">
+      <div class="mx-auto max-w-5xl px-4 py-10 text-sm text-slate-500">
+        <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+          <div class="max-w-sm">
+            <p class="flex items-center gap-2 text-base font-bold text-slate-900">
+              <span aria-hidden="true">🔧</span> Majsterkuj
+            </p>
+            <p class="mt-2 text-slate-500">
+              Narzędzia i poradniki do majsterkowania — kalkulator remontu i rankingi elektronarzędzi.
+            </p>
+          </div>
+          <nav class="flex flex-col gap-2">
+            <span class="font-semibold text-slate-700">Na skróty</span>
+            <a href="/" class="transition-colors hover:text-orange-600">Kalkulator remontu</a>
+            <a href="/poradniki/" class="transition-colors hover:text-orange-600">Poradniki</a>
+            <a href="/o-nas/" class="transition-colors hover:text-orange-600">O nas</a>
+            <a href="/polityka-prywatnosci/" class="transition-colors hover:text-orange-600">Polityka prywatności</a>
+          </nav>
+        </div>
+        <div class="mt-8 border-t border-slate-200 pt-6 text-xs text-slate-400">
+          <p>
+            © {new Date().getFullYear()} Majsterkuj. Linki afiliacyjne mogą generować prowizję — nie wpływa to na cenę, którą płacisz.
+          </p>
+        </div>
       </div>
     </footer>
 

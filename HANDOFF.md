@@ -27,8 +27,9 @@ Model: przydatne narzędzie + poradniki → ruch z Google → linki afiliacyjne 
 ## 4. Struktura — kluczowe pliki
 ```
 webpage/
-├── astro.config.mjs          # site=https://majsterkuj.vercel.app; integrations: sitemap(); vite: tailwind
+├── astro.config.mjs          # site + adapter @astrojs/vercel; integrations: sitemap(); vite: tailwind
 ├── package.json              # ⚠️ zawiera "allowScripts": {"esbuild": true} — NIE usuwać!
+├── .env.example              # ⭐ wzór zmiennych afiliacyjnych (Awin / Ceneo / domeny)
 ├── tsconfig.json
 ├── run-dev.bat               # skrót do `npm.cmd run dev`
 ├── public/robots.txt         # z wpisem Sitemap
@@ -40,7 +41,10 @@ webpage/
 │   ├── content/articles/     # 10 artykułów SEO (.md)
 │   ├── data/renovation.ts    # ⭐ pomieszczenia + prace(works) + narzędzia + standardy (stawki!)
 │   ├── data/seo-keywords.ts  # 10 fraz SEO z researchu
+│   ├── lib/affiliate/        # ⭐ config.ts + links.ts (deep-link Awin, cloak) + awin.ts + ceneo.ts
 │   └── pages/
+│       ├── api/click.ts      # ⭐ cloakowanie kliknięć (302 → link afiliacyjny)
+│       ├── api/offers.ts     # dane produktów z Ceneo/Awin
 │       ├── index.astro       # ⭐ kalkulator kosztów remontu (formularz + wynik, vanilla JS)
 │       ├── poradniki/index.astro        # lista artykułów
 │       ├── poradniki/[...slug].astro    # szablon artykułu
@@ -56,6 +60,7 @@ webpage/
 5. **Vercel Analytics** — `<Analytics />` w layout.
 6. Strony **„O nas"** i **„Polityka prywatności"** + linki w stopce.
 7. **Build przechodzi** (14 stron, exit 0). Ostatnia weryfikacja OK.
+8. **Integracja afiliacyjna (szkielet)** — endpointy serverless `/api/click` (cloakowanie kliknięć) i `/api/offers` (dane produktów), konfiguracja z env (Awin/Ceneo). Działa bez kluczy: linki przekierowują bezpośrednio do sklepu (bez prowizji).
 
 ## 6. Git
 - Repo zainicjalizowane, branch **`main`**, zdalne `origin` → `https://github.com/mquuiz-max/majsterkuj.git`.
@@ -70,6 +75,8 @@ webpage/
 4. **Terminal gubi wyjście** — używać `> plik.log 2>&1` + odczytać plik; do długich operacji marker `&& echo SUCCESS > x.ok || echo FAIL > x.ok` i odpytywać marker przez odczyt pliku (nie uruchamiać kolejnych poleceń w trakcie — zabijają proces).
 5. **Linki afiliacyjne to placeholdery**: `#` w `renovation.ts`, `awinmid=0000` w artykułach. Podmienić dopiero po: założeniu kont Awin/Ceneo + zgodzie pracodawcy.
 6. **Domena w `site`** (`astro.config.mjs`) = `majsterkuj.vercel.app`. Po kupnie własnej domeny — zaktualizować i przebudować.
+7. **Astro 7** — usunięto `output: "hybrid"`; endpointy serverless wymagają `export const prerender = false` + adaptera `@astrojs/vercel`.
+8. **Node 26 lokalnie** — Vercel Serverless używają Node 24 (build pokazuje warning, nie blokuje).
 
 ## 8. Do zrobienia (po stronie właściciela — wymaga jego kont/logowań)
 - [ ] `git push` (4 commity).
@@ -77,13 +84,14 @@ webpage/
 - [ ] Włączyć Vercel Analytics w panelu (Settings → Analytics → Enable).
 - [ ] Wrzucić link na fora (Wykop #remontujzwykopem, muratordom) — pierwszy ruch.
 - [ ] Założyć konta: Ceneo API + Awin (programy Castorama/Leroy/x-kom).
+- [ ] Ustawić zmienne w Vercel (Settings → Environment Variables): `AWIN_PUBLISHER_ID`, `AWIN_API_TOKEN`, `CENEO_API_KEY`, `ALLOWED_RETAILER_DOMAINS` (wzór w `.env.example`).
 - [ ] Po zgodzie pracodawcy: podmienić linki afiliacyjne i włączyć monetyzację.
 
 ## 9. Sugerowane dalsze kroki (do wykonania przez agenta)
 1. Potwierdzić stan gita (`git status`) i czy commity wypchnięte.
 2. Rozbudowa kalkulatora: więcej pomieszczeń / prac (struktura `works` już jest).
 3. Więcej treści: kolejne frazy (lista w `seo-keywords.ts`), kategorie produktów, porównania, „historia cen".
-4. Integracja afiliacji: dane produktów z Ceneo API (build-time / client / endpoint `/api`), cloakowanie kliknięć (`/api/click`).
+4. ✅ Integracja afiliacji (szkielet): `src/lib/affiliate/*` + `/api/click` (cloak) + `/api/offers`. Pozostało: podpiąć klucze + podać prawdziwe linki produktów (i zweryfikować endpoint Ceneo wg oficjalnej dokumentacji).
 5. SEO: dodać og:image, schema.org (Article, FAQPage), poprawić Core Web Vitals.
 6. Opcjonalnie: domena własna `majsterkuj.pl` podpięta do Vercel.
 
