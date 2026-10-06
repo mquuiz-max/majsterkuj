@@ -70,6 +70,17 @@ const articleCategory: Record<string, string> = {
   'ranking-kompresorow': 'warsztat-akcesoria',
   'ranking-kluczy-udarowych': 'warsztat-akcesoria',
   'ranking-mlotowiertarek': 'warsztat-akcesoria',
+  // Nowe artykuły (research słów kluczowych)
+  'jak-polozyc-panele-podlogowe-krok-po-kroku': 'remont-wykonczenia',
+  'jak-polozyc-plytki-krok-po-kroku': 'remont-wykonczenia',
+  'jak-wywiercic-otwor-w-betonie': 'wiertarki-wkretarki',
+  'ile-kosztuje-polozenie-paneli': 'remont-wykonczenia',
+  'ile-kosztuje-polozenie-plytek': 'remont-wykonczenia',
+  'ile-kosztuje-malowanie-mieszkania': 'remont-wykonczenia',
+  'jaki-zestaw-narzedzi-na-start': 'warsztat-akcesoria',
+  'jaka-wiertarka-do-domu': 'wiertarki-wkretarki',
+  'jak-zamontowac-polke': 'remont-wykonczenia',
+  'jak-odnowic-meble': 'szlifierki-pily',
 };
 
 export function categoryFor(articleId: string): Category {

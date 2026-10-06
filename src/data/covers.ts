@@ -27,6 +27,16 @@ const byId: Record<string, string> = {
   'ranking-szlifierek-tasmowych': '⚙️',
   'ranking-kluczy-udarowych': '🔧',
   'ranking-mlotowiertarek': '🔨',
+  'jak-polozyc-panele-podlogowe-krok-po-kroku': '🪵',
+  'jak-polozyc-plytki-krok-po-kroku': '🧱',
+  'jak-wywiercic-otwor-w-betonie': '🧱',
+  'ile-kosztuje-polozenie-paneli': '🪵',
+  'ile-kosztuje-polozenie-plytek': '🧱',
+  'ile-kosztuje-malowanie-mieszkania': '🎨',
+  'jaki-zestaw-narzedzi-na-start': '🧰',
+  'jaka-wiertarka-do-domu': '🔩',
+  'jak-zamontowac-polke': '🔩',
+  'jak-odnowic-meble': '🪑',
 };
 
 export function coverEmoji(id: string): string {
@@ -60,6 +70,16 @@ const articleImages: Record<string, string> = {
   'ranking-szlifierek-tasmowych': '/images/belt-sander.jpg',
   'ranking-kluczy-udarowych': '/images/impact-wrench.jpg',
   'ranking-mlotowiertarek': '/images/rotary-hammer.jpg',
+  'jak-polozyc-panele-podlogowe-krok-po-kroku': '/images/apartment.jpg',
+  'jak-polozyc-plytki-krok-po-kroku': '/images/bathroom.jpg',
+  'jak-wywiercic-otwor-w-betonie': '/images/hammer-drill.jpg',
+  'ile-kosztuje-polozenie-paneli': '/images/apartment.jpg',
+  'ile-kosztuje-polozenie-plytek': '/images/bathroom.jpg',
+  'ile-kosztuje-malowanie-mieszkania': '/images/paint-roller.jpg',
+  'jaki-zestaw-narzedzi-na-start': '/images/toolbox.jpg',
+  'jaka-wiertarka-do-domu': '/images/cordless-drill.jpg',
+  'jak-zamontowac-polke': '/images/drill-bits.jpg',
+  'jak-odnowic-meble': '/images/orbital-sander.jpg',
 };
 
 export function articleImage(id: string): string | undefined {
