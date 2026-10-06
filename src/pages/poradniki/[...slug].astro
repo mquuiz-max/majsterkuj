@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { coverEmoji } from '../../data/covers';
 import { extractFaq, relatedArticles } from '../../lib/seo';
+import { categoryFor } from '../../data/categories';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -35,7 +36,12 @@ const articleSchema = {
   datePublished: publishDate,
   dateModified: updatedDate,
   author: { '@type': 'Organization', name: 'Majsterkuj', url: siteUrl },
-  publisher: { '@type': 'Organization', name: 'Majsterkuj', url: siteUrl },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Majsterkuj',
+    url: siteUrl,
+    logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', siteUrl).href },
+  },
   mainEntityOfPage: articleUrl,
   keywords: article.data.tags.join(', '),
   image: new URL('/og-image.svg', siteUrl).href,
@@ -81,6 +87,8 @@ const schema = JSON.stringify(schemaParts);
         <li aria-hidden="true">›</li>
         <li><a href="/poradniki/" class="transition-colors hover:text-orange-600">Poradniki</a></li>
         <li aria-hidden="true">›</li>
+        <li><a href={`/kategorie/${categoryFor(article.id).id}/`} class="transition-colors hover:text-orange-600">{categoryFor(article.id).name}</a></li>
+        <li aria-hidden="true">›</li>
         <li class="max-w-[16rem] truncate font-medium text-slate-700 sm:max-w-xs">{article.data.title}</li>
       </ol>
     </nav>
@@ -101,6 +109,7 @@ const schema = JSON.stringify(schemaParts);
           {article.data.publishDate.toLocaleDateString('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' })}
         </time>
         {article.data.readTime && <span>· {article.data.readTime} czytania</span>}
+        <span class="text-slate-400">· Autor: Redakcja Majsterkuj</span>
       </div>
       <div class="mt-4 flex flex-wrap gap-2">
         {article.data.tags.map((tag) => (

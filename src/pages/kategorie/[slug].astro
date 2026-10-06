@@ -1,30 +1,51 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { coverEmoji } from '../../data/covers';
 import { categories, categoryFor } from '../../data/categories';
+import { coverEmoji } from '../../data/covers';
 
-const articles = (await getCollection('articles')).sort(
-  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
-);
+export async function getStaticPaths() {
+  return categories.map((c) => ({ params: { slug: c.id }, props: { category: c } }));
+}
 
-const pageTitle = 'Poradniki i rankingi narzędzi';
-const pageDescription =
-  'Poradniki zakupowe i rankingi elektronarzędzi do majsterkowania. Dowiedz się, jakie narzędzie kupić i na co zwrócić uwagę.';
+const { category } = Astro.props;
+
+const articles = (await getCollection('articles'))
+  .filter((a) => categoryFor(a.id).id === category.id)
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 ---
 
-<Layout title={pageTitle} description={pageDescription} canonicalPath="/poradniki/">
+<Layout title={category.name} description={category.description} canonicalPath={`/kategorie/${category.id}/`}>
   <section class="mx-auto max-w-5xl px-4 py-10">
-    <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Poradniki i rankingi</h1>
-    <p class="mt-3 max-w-2xl text-lg text-slate-600">
-      Praktyczne poradniki zakupowe o elektronarzędziach do domu i warsztatu.
-    </p>
+    <nav aria-label="Nawigacja okruszkowa" class="text-sm text-slate-500">
+      <ol class="flex flex-wrap items-center gap-1.5">
+        <li><a href="/" class="transition-colors hover:text-orange-600">Strona główna</a></li>
+        <li aria-hidden="true">›</li>
+        <li><a href="/poradniki/" class="transition-colors hover:text-orange-600">Poradniki</a></li>
+        <li aria-hidden="true">›</li>
+        <li class="font-medium text-slate-700">{category.name}</li>
+      </ol>
+    </nav>
+
+    <div class="mt-6 flex items-center gap-4">
+      <span class="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-100 to-amber-50 text-4xl" aria-hidden="true">
+        {category.emoji}
+      </span>
+      <div>
+        <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">{category.name}</h1>
+        <p class="mt-1 text-slate-600">{category.description}</p>
+      </div>
+    </div>
 
     <div class="mt-6 flex flex-wrap gap-2">
       {categories.map((c) => (
         <a
           href={`/kategorie/${c.id}/`}
-          class="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600 transition-colors hover:bg-orange-100 hover:text-orange-700"
+          class={
+            c.id === category.id
+              ? 'rounded-full bg-orange-600 px-3 py-1 text-xs font-semibold text-white'
+              : 'rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600 transition-colors hover:bg-orange-100 hover:text-orange-700'
+          }
         >
           {c.emoji} {c.name}
         </a>
@@ -50,10 +71,7 @@ const pageDescription =
                 {coverEmoji(article.id)}
               </div>
               <p class="text-xs font-semibold uppercase tracking-wide text-orange-600">{article.data.seoKeyword}</p>
-              <p class="mt-0.5 text-xs text-slate-400">{categoryFor(article.id).name}</p>
-              <h2 class="mt-2 text-lg font-bold text-slate-900 group-hover:text-orange-600">
-                {article.data.title}
-              </h2>
+              <h2 class="mt-2 text-lg font-bold text-slate-900 group-hover:text-orange-600">{article.data.title}</h2>
               <p class="mt-2 flex-1 text-sm text-slate-600">{article.data.description}</p>
               <div class="mt-4 flex items-center justify-between text-xs text-slate-500">
                 <span class="flex items-center gap-3">
@@ -68,7 +86,7 @@ const pageDescription =
           ))}
         </div>
       ) : (
-        <p class="mt-8 text-slate-500">Artykuły wkrótce.</p>
+        <p class="mt-8 text-slate-500">Brak artykułów w tej kategorii.</p>
       )
     }
   </section>

@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# Nie indeksuj endpointów API (cloakowanie kliknięć i dane produktów).
+Disallow: /api/
+
 Sitemap: https://majsterkuj.vercel.app/sitemap-index.xml
