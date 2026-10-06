@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://majsterkuj.pl',
+  site: 'https://majsterkuj.vercel.app',
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],

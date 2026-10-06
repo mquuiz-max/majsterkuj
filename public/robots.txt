@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://majsterkuj.vercel.app/sitemap-index.xml
