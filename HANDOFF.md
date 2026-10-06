@@ -87,6 +87,7 @@ webpage/
 8. **Node 26 lokalnie** — Vercel Serverless używają Node 24 (build pokazuje warning, nie blokuje).
 9. **Terminal PSReadLine** — przy długich/wieloznakowych komendach potrafi się wysypać (błędy „SetCursorPosition"). Pisać skrypty do `.ps1` i odpalać `powershell -ExecutionPolicy Bypass -File x.ps1`; długie operacje puszczać przez pliki-marker (`.ok`/`.log`).
 10. **Wikimedia Commons rate-limiting (429)** — przy pobieraniu zdjęć robić opóźnienia (`Start-Sleep`) i ustawiać User-Agent; nie szarżować z liczbą zapytań.
+11. **Konwencja tagów** — tagi łączą artykuły w klastry (`relatedArticles` porównuje je DOKŁADNIE, znak po znaku). Używaj jednego spójnego tagu bazowego per temat: `panele podłogowe` (nie `panele`/`panele winylowe`), `płytki` (nie `glazura`), `renowacja mebli` (nie `renowacja`), `szlifowanie drewna` (nie `szlifowanie`), `montaż półki` (nie `półka`).
 
 ## 8. Do zrobienia (po stronie właściciela — wymaga jego kont/logowań)
 - [ ] `git push` (ok. 12 commitów).

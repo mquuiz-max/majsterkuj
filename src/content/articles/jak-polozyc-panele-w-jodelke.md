@@ -3,7 +3,7 @@ title: "Jak położyć panele w jodełkę — wzór, cięcie i koszt"
 description: "Jodełka to efektowny, ale wymagający wzór podłogi. Zobacz, jak położyć panele w jodełkę, ile materiału kupić i jak uniknąć błędów."
 publishDate: 2026-10-06
 seoKeyword: "jak położyć panele w jodełkę"
-tags: ["panele", "jodełka", "podłoga", "poradnik DIY"]
+tags: ["panele podłogowe", "jodełka", "podłoga", "poradnik DIY"]
 readTime: "5 min"
 ---
 

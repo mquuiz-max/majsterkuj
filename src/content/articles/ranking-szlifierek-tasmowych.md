@@ -3,7 +3,7 @@ title: "Ranking szlifierek taśmowych 2026"
 description: "Szlifierka taśmowa do szybkiego szlifowania dużych powierzchni i starych warstw farby. Sprawdź ranking modeli i na co zwrócić uwagę."
 publishDate: 2026-10-06
 seoKeyword: "ranking szlifierek taśmowych"
-tags: ["szlifierka taśmowa", "szlifowanie", "ranking"]
+tags: ["szlifierka taśmowa", "szlifowanie drewna", "ranking"]
 readTime: "5 min"
 ---
 
