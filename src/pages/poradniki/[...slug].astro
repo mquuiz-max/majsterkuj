@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
+import { coverEmoji } from '../../data/covers';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -59,7 +60,13 @@ const schema = JSON.stringify([articleSchema, breadcrumbSchema]);
     <a href="/poradniki/" class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-500 transition-colors hover:text-orange-600">
       <span aria-hidden="true">←</span> Wszystkie poradniki
     </a>
-    <header class="mt-6 mb-8 border-b border-slate-100 pb-8">
+    <div
+      class="mt-6 mb-8 flex h-44 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-100 via-amber-50 to-orange-50 text-8xl"
+      aria-hidden="true"
+    >
+      {coverEmoji(article.id)}
+    </div>
+    <header class="mb-8 border-b border-slate-100 pb-8">
       <span class="inline-block rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold text-orange-700">{article.data.seoKeyword}</span>
       <h1 class="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
         {article.data.title}

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { coverEmoji } from '../../data/covers';
 
 const articles = (await getCollection('articles')).sort(
   (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
@@ -30,6 +31,12 @@ const pageDescription =
                 class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-orange-500 to-amber-500 opacity-0 transition-opacity group-hover:opacity-100"
                 aria-hidden="true"
               ></span>
+              <div
+                class="mb-4 flex h-20 items-center justify-center rounded-xl bg-gradient-to-br from-orange-100 via-amber-50 to-orange-50 text-4xl"
+                aria-hidden="true"
+              >
+                {coverEmoji(article.id)}
+              </div>
               <p class="text-xs font-semibold uppercase tracking-wide text-orange-600">{article.data.seoKeyword}</p>
               <h2 class="mt-2 text-lg font-bold text-slate-900 group-hover:text-orange-600">
                 {article.data.title}
