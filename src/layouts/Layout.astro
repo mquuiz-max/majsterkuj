@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const siteName = 'Majsterkuj';
+---
+
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} — {siteName}</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:locale" content="pl_PL" />
+  </head>
+
+  <body class="bg-white text-slate-900 antialiased">
+    <header class="border-b border-slate-200">
+      <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+        <a href="/" class="flex items-center gap-2 text-lg font-bold text-orange-600">
+          <span aria-hidden="true">🔧</span>
+          <span>Majsterkuj</span>
+        </a>
+        <nav class="flex items-center gap-5 text-sm font-medium text-slate-600">
+          <a href="/" class="transition-colors hover:text-orange-600">Kalkulator remontu</a>
+          <a href="/poradniki/" class="transition-colors hover:text-orange-600">Poradniki</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200">
+      <div class="mx-auto max-w-5xl px-4 py-8 text-sm text-slate-500">
+        <p>© {new Date().getFullYear()} Majsterkuj — narzędzia i poradniki do majsterkowania.</p>
+        <p class="mt-1 text-xs text-slate-400">
+          Linki afiliacyjne mogą generować prowizję dla serwisu. Nie wpływa to na cenę, którą płacisz.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
