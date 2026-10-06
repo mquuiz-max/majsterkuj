@@ -25,6 +25,12 @@ Zwróć uwagę na wagę, wyważenie i podświetlenie LED.
 
 ## Ranking — najlepsze klucze udarowe
 
+| Model | Moment obrotowy |
+|---|---|
+| Makita DTW285 | 280 Nm |
+| Bosch GDS 18V-300 | 300 Nm |
+| Milwaukee M18 FIW2F12 | 610 Nm |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Makita DTW285

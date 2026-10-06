@@ -25,6 +25,12 @@ Dobry filtr HEPA przyda się, jeśli zależy Ci na czystym powietrzu (np. pył z
 
 ## Ranking — najlepsze odkurzacze warsztatowe
 
+| Model | Zbiornik |
+|---|---|
+| Kärcher WD 3 | 17 l |
+| Bosch AdvancedVac 20 | 20 l |
+| Makita VC2512 | 25 l |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Kärcher WD 3

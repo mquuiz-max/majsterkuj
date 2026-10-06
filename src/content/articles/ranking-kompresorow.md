@@ -25,6 +25,12 @@ Bezolejowy jest tańszy w obsłudze i lżejszy, olejowy — cichszy i trwalszy p
 
 ## Ranking — najlepsze kompresory do warsztatu
 
+| Model | Zbiornik | Ciśnienie |
+|---|---|---|
+| Stanley 24 l | 24 l | 8 bar |
+| Einhell TC-AC 190/24/8 | 24 l | 8 bar |
+| Metabo Basic 250 | 24 l | 8 bar |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Stanley 24 l (bezolejowy)

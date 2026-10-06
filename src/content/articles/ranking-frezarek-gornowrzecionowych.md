@@ -25,6 +25,12 @@ Prowadnica równoległa, tulejka do kopiowania i odsysanie pyłu ułatwiają pra
 
 ## Ranking — najlepsze frezarki górnowrzecionowe
 
+| Model | Moc | Tuleja |
+|---|---|---|
+| Makita RT0700C | 710 W | 6/8 mm |
+| Bosch GKF 600 | 600 W | 6/8 mm |
+| DeWalt D26204K | 900 W | 6/8/12 mm |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Makita RT0700C

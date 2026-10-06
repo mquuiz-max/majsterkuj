@@ -25,6 +25,12 @@ Worek na pył lub złącze do odkurzacza to konieczność — taśmówka generuj
 
 ## Ranking — najlepsze szlifierki taśmowe
 
+| Model | Taśma | Moc |
+|---|---|---|
+| Bosch PBS 75 A | 75 mm | 710 W |
+| Makita 9911 | 76 mm | 650 W |
+| Skil 7640 | 76 mm | — |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Bosch PBS 75 A

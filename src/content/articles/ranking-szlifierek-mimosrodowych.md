@@ -25,6 +25,12 @@ Modele z oznaczeniem „AVE" (np. Bosch) mają redukcję wibracji — mniej zmę
 
 ## Ranking — najlepsze szlifierki mimośrodowe
 
+| Model | Talerz | Moc |
+|---|---|---|
+| Bosch GEX 125-150 AVE | 125 mm | 400 W |
+| Makita BO5041 | 125 mm | 300 W |
+| DeWalt DWE6423 | 125 mm | 280 W |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Bosch GEX 125-150 AVE

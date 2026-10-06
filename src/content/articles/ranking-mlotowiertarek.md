@@ -25,6 +25,12 @@ To ciężkie narzędzia — wygodne uchwyty i antywibracja robią dużą różni
 
 ## Ranking — najlepsze młotowiertarki SDS-Max
 
+| Model | Energia udaru | Moc |
+|---|---|---|
+| Bosch GBH 5-40 D | 8,8 J | 1150 W |
+| Makita HM0870C | 11,4 J | 1100 W |
+| DeWalt D25899K | 13,3 J | 1500 W |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Bosch GBH 5-40 D

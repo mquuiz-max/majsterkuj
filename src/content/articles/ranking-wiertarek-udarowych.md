@@ -27,6 +27,12 @@ System szybkiego mocowania wierteł bez klucza. Standard w tej klasie.
 
 ## Ranking — najlepsze wiertarki udarowe SDS-Plus
 
+| Model | Energia udaru |
+|---|---|
+| Bosch GBH 2-26 DRE | 2,7 J |
+| Makita HR2470 | 2,7 J |
+| DeWalt D25133K | 2,1 J |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`). Po założeniu konta Awin podmień numer programu i `clickref`.
 
 ### 1. Bosch GBH 2-26 DRE

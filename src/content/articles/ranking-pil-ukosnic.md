@@ -25,6 +25,12 @@ Laser lub linia cięcia, prowadnice i worek na pył ułatwiają precyzyjną prac
 
 ## Ranking — najlepsze piły ukośnice
 
+| Model | Tarcza |
+|---|---|
+| Bosch PCM 8 | 216 mm |
+| Makita LS1040 | 260 mm |
+| DeWalt DWS774 | 216 mm |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Bosch PCM 8

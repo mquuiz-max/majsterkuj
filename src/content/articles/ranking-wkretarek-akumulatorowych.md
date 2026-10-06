@@ -25,6 +25,12 @@ Lekka, z podświetleniem LED i szybkim mocowaniem bitów (1/4").
 
 ## Ranking — najlepsze wkrętarki akumulatorowe
 
+| Model | Moment obrotowy |
+|---|---|
+| Makita DTD152 | 165 Nm |
+| Bosch GDR 18V-200 | 200 Nm |
+| DeWalt DCF787 | 165 Nm |
+
 > ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
 
 ### 1. Makita DTD152
