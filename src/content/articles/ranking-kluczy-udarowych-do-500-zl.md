@@ -23,13 +23,11 @@ Standard to **1/2" (12,7 mm)** — pasuje do nasadek samochodowych.
 
 ## Ranking — najlepsze klucze udarowe do 500 zł
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — do podmiany po założeniu konta Awin.
-
 ### 1. Yato YT-82871 (akumulatorowy)
-Uniwersalny do domu i kół. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=yato-yt82871)
+Uniwersalny do domu i kół.
 
 ### 2. Graphite 58G012 (sieciowy)
-Mocny i tani do garażu. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=graphite-58g012)
+Mocny i tani do garażu.
 
 ## Najczęściej zadawane pytania
 

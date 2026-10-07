@@ -4,4 +4,4 @@ Allow: /
 # Nie indeksuj endpointów API (cloakowanie kliknięć i dane produktów).
 Disallow: /api/
 
-Sitemap: https://majsterkuj.vercel.app/sitemap-index.xml
+Sitemap: https://sprzetomierz.pl/sitemap-index.xml

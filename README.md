@@ -1,6 +1,6 @@
-# 🔧 Majsterkuj — serwis afiliacyjny „narzędzia do majsterkowania"
+# 🔧 Sprzętomierz — serwis afiliacyjny „rankingi i testy elektronarzędzi"
 
-Strona webowa z **kalkulatorem kosztów remontu** + **treściami SEO**, zarabiająca na prowizjach afiliacyjnych (Ceneo API, Awin). Cel: długoterminowe, pasywne źródło dochodu — bez pracy z klientami.
+Strona webowa z **rankingami i testami elektronarzędzi** + **treściami SEO**, zarabiająca na prowizjach afiliacyjnych (Ceneo API, Awin). Cel: długoterminowe, pasywne źródło dochodu — bez pracy z klientami.
 
 ## Stack
 

@@ -31,28 +31,23 @@ Zwróć uwagę na wagę, wyważenie i podświetlenie LED.
 | Bosch GDS 18V-300 | 300 Nm |
 | Milwaukee M18 FIW2F12 | 610 Nm |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Makita DTW285
 Lekki i mocny, idealny do kół samochodowych.
 
 - Moment: 280 Nm, napęd 1/2"
 - Kompaktowy i wygodny
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-dtw285)
 
 ### 2. Bosch GDS 18V-300
 Mocny, z dobrym stosunkiem ceny do jakości.
 
 - Moment: 300 Nm, napęd 1/2"
 - Podświetlenie LED
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gds18v300)
 
 ### 3. Milwaukee M18 FIW2F12
 Wydajny, do intensywnej pracy.
 
 - Moment: 610 Nm, napęd 1/2"
 - Tryb precyzyjnego dokręcania
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=milwaukee-m18fiw)
 
 ## Najczęściej zadawane pytania
 

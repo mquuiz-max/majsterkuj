@@ -34,12 +34,15 @@
 - [ ] Odpowiedź na zapytanie **w pierwszym akapicie**.
 - [ ] **Konkret**: tabele, stawki, widełki, liczby — nie ogólniki.
 - [ ] Unikalna wartość (dane Ceneo, kalkulator, własne zestawienie).
+- [ ] **Teardown / information gain** — w rankingach: co jest w środku (typ silnika, ogniwa,
+      przekładnia) + wniosek „cena vs możliwości". Zero placeholdera `awinmid=0000` i zero
+      notek o afiliacji w treści.
 - [ ] Długość dopasowana do top-3 w SERP (często 400–800 słów dla long-tail), zero wody i kopiowania.
 
 ## 4. E-E-A-T + świeżość
 
 - [ ] `publishDate` z bieżącym rokiem; `updatedDate` przy aktualizacji.
-- [ ] Autor (docelowo realna osoba + „O nas"); na razie „Redakcja Majsterkuj".
+- [ ] Autor: **Marcin** (realna osoba) + sekcja „O nas" z krótkim bio.
 - [ ] Po wejściu monetyzacji: schema `Product` + realne ceny.
 
 ## 5. Linkowanie wewnętrzne
@@ -96,8 +99,9 @@ Węższy temat? Zobacz: [tytuł satelity](/poradniki/slug-satelity/).
 ### 1. Parametr
 ### 2. Parametr
 
-## Ranking — …
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — do podmiany po założeniu konta Awin.
+## Ranking — … (z teardownem / information gain)
 ### 1. Marka Model
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=sluga)
+- [Zobacz cenę →](/api/click?to=...)  <!-- realny link po założeniu konta Awin -->
+- Co jest w środku: silnik bezszczotkowy/szczotkowy, ogniwa baterii, przekładnia metal/plastik
+- Wniosek: czy cena odpowiada możliwościom (np. „różnica 70 zł kupuje tu silnik na lata")
 ```

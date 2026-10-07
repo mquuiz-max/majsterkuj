@@ -31,28 +31,23 @@ Dobry filtr HEPA przyda się, jeśli zależy Ci na czystym powietrzu (np. pył z
 | Bosch AdvancedVac 20 | 20 l |
 | Makita VC2512 | 25 l |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Kärcher WD 3
 Uniwersalny, popularny i niedrogi.
 
 - Zbiornik 17 l
 - Funkcja wydmuchu i odsysanie wody
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=karcher-wd3)
 
 ### 2. Bosch AdvancedVac 20
 Mocny, z automatycznym czyszczeniem filtra.
 
 - Zbiornik 20 l
 - System czyszczenia filtra
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-advancedvac20)
 
 ### 3. Makita VC2512
 Wydajny, z gniazdem do podłączania elektronarzędzi.
 
 - Zbiornik 25 l
 - Auto-start przy włączaniu narzędzia
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-vc2512)
 
 ## Najczęściej zadawane pytania
 

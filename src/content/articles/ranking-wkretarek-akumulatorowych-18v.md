@@ -22,13 +22,11 @@ Wybierz markę, której inne narzędzia chcesz dokupić — baterie są wymienne
 
 ## Ranking — wkrętarki akumulatorowe 18V
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — do podmiany po założeniu konta Awin.
-
 ### 1. Makita DDF485
-Lekka, mocna, bezszczotkowa. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-ddf485)
+Lekka, mocna, bezszczotkowa.
 
 ### 2. Bosch GSR 18V-55
-Solidna, do domu i warsztatu. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gsr18v55)
+Solidna, do domu i warsztatu.
 
 ## Najczęściej zadawane pytania
 

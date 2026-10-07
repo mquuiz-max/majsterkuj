@@ -31,28 +31,23 @@ To ciężkie narzędzia — wygodne uchwyty i antywibracja robią dużą różni
 | Makita HM0870C | 11,4 J | 1100 W |
 | DeWalt D25899K | 13,3 J | 1500 W |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Bosch GBH 5-40 D
 Uniwersalna, do skuwania i wiercenia.
 
 - Energia udaru: 8,8 J, moc 1150 W
 - Dobra antywibracja
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gbh5-40)
 
 ### 2. Makita HM0870C
 Mocna, do cięższych prac rozbiórkowych.
 
 - Energia udaru: 11,4 J, moc 1100 W
 - Tryb kucia
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-hm0870)
 
 ### 3. DeWalt D25899K
 Solidna i wydajna.
 
 - Energia udaru: 13,3 J, moc 1500 W
 - Do intensywnej pracy
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-d25899)
 
 ## Najczęściej zadawane pytania
 

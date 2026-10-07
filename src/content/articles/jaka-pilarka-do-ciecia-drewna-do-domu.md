@@ -36,10 +36,8 @@ Na start do domu najczęściej wybierana jest **ukośnica** (precyzja) lub **tar
 - **Moc** — 1200–1800 W wystarczy do drewna.
 - **Laser / prowadnica** — ułatwia precyzyjne cięcie.
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — podmień po założeniu konta Awin.
-
-- **Pilarki ukośnice:** [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=pilarka-ukosnica)
-- **Pilarki tarczowe:** [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=pilarka-tarczowa)
+- **Pilarki ukośnice:**
+- **Pilarki tarczowe:**
 
 ## Najczęstsze pytania
 

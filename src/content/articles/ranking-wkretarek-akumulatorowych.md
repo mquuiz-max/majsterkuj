@@ -31,28 +31,23 @@ Lekka, z podświetleniem LED i szybkim mocowaniem bitów (1/4").
 | Bosch GDR 18V-200 | 200 Nm |
 | DeWalt DCF787 | 165 Nm |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Makita DTD152
 Lekka i zwinna, idealna do domu.
 
 - Moment: 165 Nm
 - Kompaktowa konstrukcja
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-dtd152)
 
 ### 2. Bosch GDR 18V-200
 Mocna, z dobrym stosunkiem ceny do jakości.
 
 - Moment: 200 Nm
 - Podświetlenie LED
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gdr18v200)
 
 ### 3. DeWalt DCF787
 Niezawodna w cięższych pracach.
 
 - Moment: 165 Nm
 - Solidne wykonanie
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-dcf787)
 
 ## Najczęściej zadawane pytania
 

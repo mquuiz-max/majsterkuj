@@ -25,10 +25,8 @@ Akumulatorowa daje swobodę, sieciowa — moc i brak przerw.
 
 ## Polecane modele
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — do podmiany po założeniu konta Awin.
-
-- **Bosch PST 800 PEL** — lekka i tania do domu. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-pst-800)
-- **Makita 4351FCT** — mocna, z płynną regulacją. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-4351fct)
+- **Bosch PST 800 PEL** — lekka i tania do domu.
+- **Makita 4351FCT** — mocna, z płynną regulacją.
 
 ## Najczęściej zadawane pytania
 

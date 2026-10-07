@@ -22,22 +22,14 @@ Standard, który pozwala błyskawicznie wymieniać wiertła bez klucza.
 
 ## Ranking wiertarek udarowych do 500 zł
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — podmień po założeniu konta Awin.
-
 ### 1. Makita HR2470 (780 W, 2,4 J)
 Legendarny model — lekka, mocna i praktycznie niezniszczalna. Często w zestawie z walizką.
-
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-hr2470)
 
 ### 2. Bosch GBH 2-24 (790 W, 2,7 J)
 Niezawodny sprzęt z dobrą ochroną antywibracyjną.
 
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gbh2-24)
-
 ### 3. DeWalt D25133K (800 W, 2,4 J)
 Solidna konstrukcja i duży zapas mocy.
-
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-d25133k)
 
 ## Najczęstsze pytania
 

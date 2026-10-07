@@ -24,13 +24,11 @@ Modele sieciowe mają **1000–1700 W**.
 
 ## Ranking — młotowiertarki SDS-Max
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — do podmiany po założeniu konta Awin.
-
 ### 1. Bosch GBH 5-40 D
-Profesjonalny standard do rozbiórek. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gbh5-40)
+Profesjonalny standard do rozbiórek.
 
 ### 2. Makita HR4013C
-Mocna i wytrzymała. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-hr4013c)
+Mocna i wytrzymała.
 
 ## Najczęściej zadawane pytania
 

@@ -23,7 +23,7 @@ const steps = extractSteps(article.body);
 const category = categoryFor(article.id);
 const coverImage = articleImage(article.id) ?? category.image;
 
-const siteUrl = 'https://majsterkuj.vercel.app';
+const siteUrl = 'https://sprzetomierz.pl';
 const canonicalPath = `/poradniki/${article.id}/`;
 const articleUrl = new URL(canonicalPath, siteUrl).href;
 const publishDate = article.data.publishDate.toISOString();
@@ -38,10 +38,10 @@ const articleSchema = {
   description: article.data.description,
   datePublished: publishDate,
   dateModified: updatedDate,
-  author: { '@type': 'Organization', name: 'Majsterkuj', url: siteUrl },
+  author: { '@type': 'Person', name: 'Marcin', url: siteUrl + '/o-nas/' },
   publisher: {
     '@type': 'Organization',
-    name: 'Majsterkuj',
+    name: 'Sprzętomierz',
     url: siteUrl,
     logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', siteUrl).href },
   },
@@ -132,7 +132,7 @@ const schema = JSON.stringify(schemaParts);
           {article.data.publishDate.toLocaleDateString('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' })}
         </time>
         {article.data.readTime && <span>· {article.data.readTime} czytania</span>}
-        <span class="text-slate-400">· Autor: Redakcja Majsterkuj</span>
+        <span class="text-slate-400">· Autor: Marcin</span>
       </div>
       <div class="mt-4 flex flex-wrap gap-2">
         {article.data.tags.map((tag) => (

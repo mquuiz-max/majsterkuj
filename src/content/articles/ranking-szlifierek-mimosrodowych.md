@@ -31,28 +31,23 @@ Modele z oznaczeniem „AVE" (np. Bosch) mają redukcję wibracji — mniej zmę
 | Makita BO5041 | 125 mm | 300 W |
 | DeWalt DWE6423 | 125 mm | 280 W |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Bosch GEX 125-150 AVE
 Komfortowa, z redukcją wibracji i dobrym odsysaniem.
 
 - Talerz 125 mm, moc 400 W
 - Regulacja obrotów
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gex125150)
 
 ### 2. Makita BO5041
 Lekka i wygodna, świetna relacja ceny do jakości.
 
 - Talerz 125 mm, moc 300 W
 - Podwójne odsysanie pyłu
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-bo5041)
 
 ### 3. DeWalt DWE6423
 Solidna i wydajna do intensywnego szlifowania.
 
 - Talerz 125 mm, moc 280 W
 - Złącze do odkurzacza
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-dwe6423)
 
 ## Najczęściej zadawane pytania
 

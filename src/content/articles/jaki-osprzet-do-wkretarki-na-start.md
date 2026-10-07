@@ -26,11 +26,6 @@ Przedłużka magnetyczna to mały gadżet, który ogromnie ułatwia wkręcanie w
 ### 5. Komplet nasadek (opcjonalnie)
 Do skręcania mebli i prac motoryzacyjnych przyda się zestaw nasadek 1/4".
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — podmień po założeniu konta Awin.
-
-- **Zestaw bitów + wierteł (uniwersalny):** [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=zestaw-bitow-wiertel)
-- **Uchwyt magnetyczny / przedłużka:** [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=uchwyt-magnetyczny)
-
 ## Najczęstsze pytania
 
 ### Czy warto kupować duże walizki z osprzętem?

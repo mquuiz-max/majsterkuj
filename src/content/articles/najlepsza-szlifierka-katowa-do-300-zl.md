@@ -24,22 +24,14 @@ Standard to **125 mm** — największy wybór tarcz i najlepsza dostępność. M
 
 ## Ranking szlifierek kątowych do 300 zł
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — podmień po założeniu konta Awin.
-
 ### 1. Bosch GWS 700-125
 Niezawodny klasyk — 700 W, tarcza 125 mm. Sprawdza się od lat.
-
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gws700)
 
 ### 2. Makita GA5030 (125 mm)
 Lekka i poręczna, dobra do precyzyjnych prac.
 
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-ga5030)
-
 ### 3. DeWalt DWE4056 (125 mm)
 Solidna i wytrzymała, z dobrą ergonomią.
-
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-dwe4056)
 
 ## Najczęstsze pytania
 

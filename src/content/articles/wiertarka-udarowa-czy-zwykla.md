@@ -29,11 +29,6 @@ Wierci **obrotem + mocnym udarem pneumatycznym** — stworzona do **betonu, żel
 
 Jeśli kupujesz **jedno narzędzie na start**, wybierz **wiertarko-wkrętarkę 18 V** — pokryje 90% domowych prac. Do betonu dokupisz tanią wiertarkę udarową SDS (sieciową) za 150–250 zł, gdy naprawdę jej potrzebujesz.
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — podmień po założeniu konta Awin.
-
-- **Wiertarko-wkrętarka 18 V (uniwersalna):** [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=wiertarko-wkretarka-18v)
-- **Wiertarka udarowa SDS-Plus (do betonu):** [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=wiertarka-sds)
-
 ## Najczęstsze pytania
 
 ### Czy wiertarko-wkrętarka z udarem wywierci beton?

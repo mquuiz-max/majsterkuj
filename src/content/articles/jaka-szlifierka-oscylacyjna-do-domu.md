@@ -32,8 +32,6 @@ Im mniej wibracji, tym dłużej pracujesz bez zmęczenia. Zwróć uwagę na wywa
 
 ## Ranking — najlepsze narzędzia wielofunkcyjne do domu
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder**. Po założeniu konta Awin/Ceneo podmień je na prawdziwe.
-
 ### 1. Bosch GOP 18V-28
 Uniwersalny i lekki model akumulatorowy, świetny do domu.
 

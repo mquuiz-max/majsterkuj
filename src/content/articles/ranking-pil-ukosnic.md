@@ -31,28 +31,23 @@ Laser lub linia cięcia, prowadnice i worek na pył ułatwiają precyzyjną prac
 | Makita LS1040 | 260 mm |
 | DeWalt DWS774 | 216 mm |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Bosch PCM 8
 Precyzyjna, z laserem i dobrą jakością cięcia.
 
 - Tarcza 216 mm
 - Laser ułatwiający cięcie
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-pcm8)
 
 ### 2. Makita LS1040
 Sprawdzona i wytrzymała, dobra do intensywnej pracy.
 
 - Tarcza 260 mm
 - Solidna konstrukcja
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-ls1040)
 
 ### 3. DeWalt DWS774
 Lekka i poręczna, wygodna w transporcie.
 
 - Tarcza 216 mm
 - Niska waga
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-dws774)
 
 ## Najczęściej zadawane pytania
 

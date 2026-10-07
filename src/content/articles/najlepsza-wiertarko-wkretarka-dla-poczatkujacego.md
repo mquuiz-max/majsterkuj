@@ -25,22 +25,14 @@ Makita, Bosch, DeWalt, Milwaukee — akumulatory i serwis będą dostępne przez
 
 ## Polecane modele na start
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — podmień po założeniu konta Awin.
-
 ### 1. Makita DF333D (18 V)
 Lekka, prosta i niezawodna — idealna pierwsza wkrętarka.
-
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-df333d)
 
 ### 2. Bosch GSR 18V-55 (18 V)
 Mocna, z metalowym uchwytem i świetnym stosunkiem ceny do jakości.
 
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gsr18v55)
-
 ### 3. DeWalt DCD771 (18 V)
 Solidna konstrukcja do intensywnego użytkowania.
-
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-dcd771)
 
 ## Najczęstsze pytania
 

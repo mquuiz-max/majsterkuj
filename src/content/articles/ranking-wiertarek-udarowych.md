@@ -33,28 +33,23 @@ System szybkiego mocowania wierteł bez klucza. Standard w tej klasie.
 | Makita HR2470 | 2,7 J |
 | DeWalt D25133K | 2,1 J |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`). Po założeniu konta Awin podmień numer programu i `clickref`.
-
 ### 1. Bosch GBH 2-26 DRE
 Uniwersalny bestseller do domu i warsztatu.
 
 - Energia udaru: 2,7 J
 - 3 tryby pracy (wiercenie, udar, kucie)
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gbh2-26)
 
 ### 2. Makita HR2470
 Solidna i wytrzymała, świetny stosunek ceny do jakości.
 
 - Energia udaru: 2,7 J
 - Moc 780 W
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-hr2470)
 
 ### 3. DeWalt D25133K
 Lżejsza i poręczna, dobra do prac nad głową.
 
 - Energia udaru: 2,1 J
 - Moc 800 W
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-d25133)
 
 ## Najczęściej zadawane pytania
 

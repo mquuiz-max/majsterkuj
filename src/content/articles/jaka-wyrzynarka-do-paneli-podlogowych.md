@@ -26,10 +26,8 @@ Do wielu równych cięć szybsza będzie **ukośnica**, ale wyrzynarka jest tań
 
 ## Polecane modele
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — do podmiany po założeniu konta Awin.
-
-- **Bosch PST 650** — lekka, dobra do paneli. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-pst-650)
-- **Makita 4329** — cicha i precyzyjna. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-4329)
+- **Bosch PST 650** — lekka, dobra do paneli.
+- **Makita 4329** — cicha i precyzyjna.
 
 ## Najczęściej zadawane pytania
 

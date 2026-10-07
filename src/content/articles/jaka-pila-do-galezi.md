@@ -24,28 +24,23 @@ Przycinanie gałęzi wymaga odpowiedniego narzędzia — od prostej piły ręczn
 
 ## Ranking — najlepsze piły do gałęzi
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Makita DUC254 (akumulatorowa)
 Lekka i cicha, idealna do ogrodu.
 
 - Prowadnica 25 cm, zasilanie 18 V
 - Lekka i poręczna
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-duc254)
 
 ### 2. Stihl MSA 120 C-B (akumulatorowa)
 Profesjonalna jakość, do intensywnej pracy.
 
 - Prowadnica 30 cm
 - Solidna i wydajna
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=stihl-msa120)
 
 ### 3. Fiskars Piła do gałęzi (ręczna)
 Budżetowa, do cienkich gałęzi.
 
 - Tania i niezawodna
 - Do gałęzi do 5 cm
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=fiskars-pila)
 
 ## Najczęściej zadawane pytania
 

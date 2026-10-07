@@ -22,8 +22,8 @@ const {
   schema,
 } = Astro.props;
 
-const siteName = 'Majsterkuj';
-const siteUrl = 'https://majsterkuj.vercel.app';
+const siteName = 'Sprzętomierz';
+const siteUrl = 'https://sprzetomierz.pl';
 const canonicalUrl = new URL(canonicalPath, siteUrl).href;
 const ogImageUrl = ogImage.startsWith('http') ? ogImage : new URL(ogImage, siteUrl).href;
 
@@ -75,7 +75,7 @@ const websiteSchema = {
       <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <a href="/" class="flex items-center gap-2.5 text-lg font-bold text-slate-900">
           <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 text-lg shadow-sm" aria-hidden="true">🔧</span>
-          <span>Majster<span class="text-orange-600">kuj</span></span>
+          <span>Sprzęto<span class="text-orange-600">mierz</span></span>
         </a>
         <nav class="flex items-center gap-1 text-sm font-medium text-slate-600">
           <a href="/" class="rounded-lg px-3 py-2 transition-colors hover:bg-orange-50 hover:text-orange-600">Kalkulator remontu</a>
@@ -93,10 +93,10 @@ const websiteSchema = {
         <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
           <div class="max-w-sm">
             <p class="flex items-center gap-2 text-base font-bold text-slate-900">
-              <span aria-hidden="true">🔧</span> Majsterkuj
+              <span aria-hidden="true">🔧</span> Sprzętomierz
             </p>
             <p class="mt-2 text-slate-500">
-              Narzędzia i poradniki do majsterkowania — kalkulator remontu i rankingi elektronarzędzi.
+              Rankingi i testy elektronarzędzi — sprawdzamy, co jest w środku i czy cena odpowiada możliwościom.
             </p>
           </div>
           <nav class="flex flex-col gap-2">
@@ -109,7 +109,7 @@ const websiteSchema = {
         </div>
         <div class="mt-8 border-t border-slate-200 pt-6 text-xs text-slate-400">
           <p>
-            © {new Date().getFullYear()} Majsterkuj. Linki afiliacyjne mogą generować prowizję — nie wpływa to na cenę, którą płacisz.
+            © {new Date().getFullYear()} Sprzętomierz. Linki afiliacyjne mogą generować prowizję — nie wpływa to na cenę, którą płacisz.
           </p>
           <p class="mt-1">Zdjęcia: Wikimedia Commons (licencje Creative Commons / domena publiczna).</p>
         </div>

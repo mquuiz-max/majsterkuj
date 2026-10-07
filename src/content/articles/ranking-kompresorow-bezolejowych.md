@@ -23,13 +23,11 @@ Bezolejowe bywają głośniejsze — sprawdź decybele, jeśli pracujesz w domu.
 
 ## Ranking — kompresory bezolejowe
 
-> ⚠️ Linki afiliacyjne to placeholder (`awinmid=0000`) — do podmiany po założeniu konta Awin.
-
 ### 1. Dedra DED7802 (24 l)
-Uniwersalny do domu. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dedra-ded7802)
+Uniwersalny do domu.
 
 ### 2. Metabo Basic 250-24 W (24 l)
-Solidna niemiecka marka. [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=metabo-basic-250)
+Solidna niemiecka marka.
 
 ## Najczęściej zadawane pytania
 

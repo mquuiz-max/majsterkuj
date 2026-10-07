@@ -31,28 +31,23 @@ Prowadnica równoległa, tulejka do kopiowania i odsysanie pyłu ułatwiają pra
 | Bosch GKF 600 | 600 W | 6/8 mm |
 | DeWalt D26204K | 900 W | 6/8/12 mm |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Makita RT0700C
 Lekka, precyzyjna i bardzo uniwersalna.
 
 - Moc 710 W, tuleja 6/8 mm
 - Płynna regulacja obrotów
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=makita-rt0700)
 
 ### 2. Bosch GKF 600
 Kompaktowa, dobra do krawędzi i wykończeń.
 
 - Moc 600 W, tuleja 6/8 mm
 - Mała i poręczna
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=bosch-gkf600)
 
 ### 3. DeWalt D26204K
 Mocniejsza, do intensywniejszej pracy.
 
 - Moc 900 W, tuleja 6/8/12 mm
 - Dobra widoczność miejsca frezowania
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=dewalt-d26204)
 
 ## Najczęściej zadawane pytania
 

@@ -31,28 +31,23 @@ Bezolejowy jest tańszy w obsłudze i lżejszy, olejowy — cichszy i trwalszy p
 | Einhell TC-AC 190/24/8 | 24 l | 8 bar |
 | Metabo Basic 250 | 24 l | 8 bar |
 
-> ⚠️ Linki afiliacyjne — poniższe adresy to **placeholder** (`awinmid=0000`).
-
 ### 1. Stanley 24 l (bezolejowy)
 Popularny, niedrogi i wystarczający do domu.
 
 - Zbiornik 24 l, 8 bar
 - Kompaktowa budowa
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=stanley-24l)
 
 ### 2. Einhell TC-AC 190/24/8
 Dobry stosunek ceny do możliwości.
 
 - Zbiornik 24 l, 8 bar, 190 l/min
 - Lekki i mobilny
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=einhell-tcac190)
 
 ### 3. Metabo Basic 250
 Solidniejszy, do częstszej pracy.
 
 - Zbiornik 24 l, 8 bar
 - Trwała, olejowa konstrukcja
-- [Zobacz cenę →](https://www.awin1.com/cread.php?awinmid=0000&clickref=metabo-basic250)
 
 ## Najczęściej zadawane pytania
 

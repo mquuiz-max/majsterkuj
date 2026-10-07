@@ -36,8 +36,6 @@ Rzuca punkty — do przenoszenia poziomu na odległość. Rzadziej potrzebna w d
 
 ## Ranking — najlepsze poziomice laserowe do remontu
 
-> ⚠️ Linki afiliacyjne — placeholder, do podmiany po założeniu konta Awin/Ceneo.
-
 ### 1. Bosch GLL 2-15
 Dobra, uniwersalna poziomica krzyżowa z czerwonym laserem.
 

@@ -1,4 +1,4 @@
-# HANDOFF — Majsterkuj (serwis afiliacyjny „narzędzia do majsterkowania")
+# HANDOFF — Sprzętomierz (serwis afiliacyjny „rankingi i testy elektronarzędzi")
 
 > Dokument dla kolejnej sesji/agenta — żeby od razu wiedzieć, o co chodzi i kontynuować pracę bez powtarzania ustaleń.
 
@@ -16,7 +16,7 @@ Model: przydatne narzędzie + poradniki → ruch z Google → linki afiliacyjne 
 - **Astro 7.3.5** (wybrane zamiast Next.js — priorytet: szybkość i treści statyczne)
 - **TypeScript**, **Tailwind CSS 4.3.3** (via `@tailwindcss/vite`)
 - **@astrojs/sitemap**, **@vercel/analytics** (v2.0.1), **@astrojs/vercel** (adapter — endpointy serverless)
-- Hosting: **Vercel** (darmowy) → `https://majsterkuj.vercel.app/`
+- Hosting: **Vercel** (darmowy) → domena: `https://sprzetomierz.pl`
 - GitHub: user **`mquuiz-max`**, repo **`majsterkuj`**
 
 ## 3. LOKALIZACJA (kluczowe)
@@ -84,7 +84,7 @@ webpage/
 3. **npm 11 bug #4828** (pomijanie opcjonalnych zależności natywnych) — jeśli brakuje binarek rolldown/esbuild: usunąć `node_modules` + `package-lock.json` i reinstalować.
 4. **Terminal gubi wyjście** — używać `> plik.log 2>&1` + odczytać plik; do długich operacji marker `&& echo SUCCESS > x.ok || echo FAIL > x.ok` i odpytywać marker przez odczyt pliku (nie uruchamiać kolejnych poleceń w trakcie — zabijają proces).
 5. **Linki afiliacyjne to placeholdery**: `#` w `renovation.ts`, `awinmid=0000` w artykułach. Podmienić dopiero po: założeniu kont Awin/Ceneo + zgodzie pracodawcy.
-6. **Domena w `site`** (`astro.config.mjs`) = `majsterkuj.vercel.app`. Po kupnie własnej domeny — zaktualizować i przebudować.
+6. **Domena w `site`** (`astro.config.mjs`) = `sprzetomierz.pl` (zmieniona z `majsterkuj.vercel.app`, 2026-10-07).
 7. **Astro 7** — usunięto `output: "hybrid"`; endpointy serverless wymagają `export const prerender = false` + adaptera `@astrojs/vercel`.
 8. **Node 26 lokalnie** — Vercel Serverless używają Node 24 (build pokazuje warning, nie blokuje).
 9. **Terminal PSReadLine** — przy długich/wieloznakowych komendach potrafi się wysypać (błędy „SetCursorPosition"). Pisać skrypty do `.ps1` i odpalać `powershell -ExecutionPolicy Bypass -File x.ps1`; długie operacje puszczać przez pliki-marker (`.ok`/`.log`).
@@ -93,7 +93,7 @@ webpage/
 
 ## 8. Do zrobienia (po stronie właściciela — wymaga jego kont/logowań)
 - [ ] `git push` (ok. 12 commitów).
-- [ ] Google Search Console: kliknąć „Zweryfikuj" + zgłosić sitemap `https://majsterkuj.vercel.app/sitemap-index.xml`.
+- [ ] Google Search Console: kliknąć „Zweryfikuj" + zgłosić sitemap `https://sprzetomierz.pl/sitemap-index.xml`.
 - [ ] Włączyć Vercel Analytics w panelu (Settings → Analytics → Enable).
 - [ ] Wrzucić link na fora (Wykop #remontujzwykopem, muratordom) — pierwszy ruch.
 - [ ] Założyć konta: Ceneo API + Awin (programy Castorama/Leroy/x-kom).
@@ -107,7 +107,7 @@ webpage/
 4. ⭐ **Każdy nowy artykuł MUSI spełniać `WYTYCZNE-SEO.md`** — to świętość (fraza long-tail zweryfikowana autocompletem → H1 z frazą → H2 jako pytania → konkret/tabele → FAQ/HowTo → linki wewnętrzne + spójne tagi).
 4. ✅ Integracja afiliacji (szkielet) — pozostało: podpiąć klucze + prawdziwe linki (zweryfikować endpoint Ceneo wg oficjalnej dokumentacji).
 5. ✅ SEO (canonical, og:image, schema Article/FAQPage/HowTo/BreadcrumbList, linkowanie wewnętrzne, kategorie, robots.txt, E-E-A-T). Ewentualnie dalej: og:image jako PNG, Core Web Vitals, schema Product w rankingach (po podpięciu prawdziwych cen).
-6. Opcjonalnie: domena własna `majsterkuj.pl` podpięta do Vercel.
+6. ✅ Domena własna `sprzetomierz.pl` — ustawiona w `site` (`astro.config.mjs`) i we wszystkich `siteUrl`.
 
 ## 10. Jak uruchomić
 ```bash
